@@ -16,3 +16,4 @@ CREATE TABLE IF NOT EXISTS feedback (
 CREATE INDEX IF NOT EXISTS feedback_project_key_idx ON feedback(project_key);
 CREATE INDEX IF NOT EXISTS feedback_status_idx ON feedback(status);
 CREATE INDEX IF NOT EXISTS feedback_created_at_idx ON feedback(created_at);
+CREATE INDEX IF NOT EXISTS feedback_project_ip_created_idx ON feedback(project_key, ip_address, created_at);
