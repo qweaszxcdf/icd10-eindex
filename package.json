@@ -1,0 +1,11 @@
+{
+  "name": "icd10-eindex-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "npx serve dist",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name eindex"
+  }
+}

@@ -1,0 +1,8 @@
+name = "eindex"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-07-25"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "feedback"
+database_id = "f755b043-bb86-4ea8-ae8c-e56991814433"
