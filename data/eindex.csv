@@ -254,7 +254,7 @@
 1474,1,晕车.,car,X51,0.9819502234458923
 1474,1,晕船,sea,X51,0.9475551843643188
 1474,0,不当,Failure,,0.9999898672103882
-1471,1,的,to,,0.9999898672103882
+1474,1,的,to,,0.9999898672103882
 1474,2,插入导管或器械(除外麻醉中气管内插管),introduce tube or instrument (except endotracheal tube during anesthesia),Y65.4,0.9526622295379639
 1474,2,取除导管或器械(除外麻醉中气管内插管),remove tube or instrument (except endotracheal tube during anesthesia),Y65.4,0.9818630218505859
 1474,2,转弯(运输车辆)NEC(另见意外事故，运输),"make curve (transport vehicle) NEC (see also Accident, transport)",V89.9,0.9743475317955017
