@@ -39,10 +39,10 @@
 1468,2,特指的NEC,specified NEC,W86,0.9783844351768494
 1468,2,依法处以死刑,legal execution,Y35.5,0.9780967831611633
 1468,2,载电轨,live rail,W86,0.9808984994888306
-1469,1,在电休克治疗的医疗或手术操作中的意外[医疗]事故,misadventure in medical or surgical procedure in electroshock therapy,Y63.4,0.9661772847175598
+1469,2,在电休克治疗的医疗或手术操作中的意外[医疗]事故,misadventure in medical or surgical procedure in electroshock therapy,Y63.4,0.9661772847175598
 1469,2,自己造成的(未确定是否为意外或故意的),self-inflicted (undetermined whether accidental or intentional),Y33,0.9739484190940857
-1469,2,描述为故意的、有目的的，自杀(企图),"stated as intentional, purposeful, suicide (attempt)",X83,0.9893642663955688
-1469,1,自杀(企图),suicide (attempt),X83,0.943928599357605
+1469,3,描述为故意的、有目的的，自杀(企图),"stated as intentional, purposeful, suicide (attempt)",X83,0.9893642663955688
+1469,2,自杀(企图),suicide (attempt),X83,0.943928599357605
 1469,1,辐射(另见辐射),radiation (see also Radiation),W91,0.9767069220542908
 1469,1,高压喷射(水力)(气体).,high-pressure jet (hydraulic) (pneumatic),W41,0.9687957763671875
 1469,1,过度,excessive,,0.9991726875305176
@@ -50,11 +50,11 @@
 1469,1,热(自然) NEC,—heat (natural) NEC,X30,0.9346081614494324
 1469,2,人为的,man-made,W92,0.9707958102226257
 1469,1,寒冷(意外)(过度)(极度)(自然)(地方).,cold (accidental) (excessive) (extreme) (natural) (place),X31,0.9586088061332703
-1469,1,由于,due to,,0.784143328666687
-1469,2,人为情况,man-made conditions,W93,0.9784752130508423
-1469,2,天气(情况),weather (conditions),X31,0.9425042271614075
+1469,2,由于,due to,,0.784143328666687
+1469,3,人为情况,man-made conditions,W93,0.9784752130508423
+1469,3,天气(情况),weather (conditions),X31,0.9425042271614075
 1469,2,自己造成的(未确定是否为意外或故意的),self-inflicted (undetermined whether accidental or intentional),Y33,0.9676420092582703
-1469,2,自杀(企图),suicide (attempt),X83,0.9712006449699402
+1469,3,自杀(企图),suicide (attempt),X83,0.9712006449699402
 1469,1,火(意外)(伴有暴露于烟、烟雾或引起燃烧或继发的爆炸),"fire (accidental) (with exposure to smoke or fumes or causing burns, or secondary explosion)",X09,0.9800664782524109
 1469,1,壁炉,fireplace,X02,0.9792700409889221
 1469,1,草原(无控制的),grass (uncontrolled),X01,0.9775682687759399
@@ -65,10 +65,10 @@
 1469,1,火炉,stove,X02,0.9042007923126221
 1469,1,坑道(无控制的),tunnel (uncontrolled),X01,0.9790855646133423
 1469,1,木材(无控制的),lumber (uncontrolled),X01,0.9717430472373962
-1469,1,其他人员引起,started by other person,,0.9037545323371887
-1469,1,描述为,stated as,,0.8182418942451477
-1469,2,故意的，他杀(企图),"intentional, homicide (attempt)",X97,0.9818547368049622
-1469,2,未确定是否故意伤害或杀害.,undetermined whether or not with intent to injure or kill,Y26,0.9896462559700012
+1469,2,其他人员引起,started by other person,,0.9037545323371887
+1469,3,描述为,stated as,,0.8182418942451477
+1469,4,故意的，他杀(企图),"intentional, homicide (attempt)",X97,0.9818547368049622
+1469,4,未确定是否故意伤害或杀害.,undetermined whether or not with intent to injure or kill,Y26,0.9896462559700012
 1469,1,森林(无控制的),forest (uncontrolled) .,X01,0.9633923172950745
 1469,2,受控制的(...中),controlled (in),,0.9176085591316223
 1469,2,伴有衣服着火(另见着火，衣服),"with ignition (of) clothing (see also Ignition, clothes)",X06,0.9888402819633484
@@ -107,9 +107,9 @@
 1470,1,机械性力量 NEC,mechanical forces NEC,W49,0.9421171545982361
 1470,2,无生命 NEC,inanimate NEC,W49,0.9568345546722412
 1470,2,有生命 NEC,animate NEC,W49,0.978848397731781
-1470,1,喷射，高压的(水力)(气体),"jet, high-pressure (hydraulic) (pneumatic)",W64,0.985467791557312
+1470,1,喷射，高压的(水力)(气体),"jet, high-pressure (hydraulic) (pneumatic)",W41,0.985467791557312
 1470,1,气体喷射,pneumatic jet,W41,0.985246479511261
-1470,1,热(自然)NEC(另见 热),heat (natural) NEC (see also Heat),W41,0.9389557838439941
+1470,1,热(自然)NEC(另见 热),heat (natural) NEC (see also Heat),X30,0.9389557838439941
 1470,1,日光 NEC,sunlight NEC,X32,0.9537871479988098
 1471,1,输电线路.,"transmission line(s), electric",W85,0.9980452060699463
 1471,1,闪电,lightning,X33,0.9385389685630798
@@ -182,7 +182,7 @@
 1472,1,作战行动(另见作战行动，爆炸),"war operations (see also War operations, explosion)",Y36.2,0.9932810664176941
 1472,0,被夹在物体之间(运动)(静止和运动)(另见夹住),Pinched between objects (moving) (stationary and moving) (see also Caught),W23,0.9885603785514832
 1472,0,冰雹致伤,"Hailstones, injured by",X39,0.9921026229858398
-1472,0,冰冻(另见暴露，寒冷),"Freezing (see also Exposure, cold) :-",X31,0.9966001510620117
+1472,0,冰冻(另见暴露，寒冷),"Freezing (see also Exposure, cold)",X31,0.9966001510620117
 1472,0,并发症(迟延)(当时或随后)(腹腔镜检查)(激光)(医疗或手术操作),Complication (delayed) (of or following) (laparoscopic) (laser) (medical or surgical procedure),Y84.9,0.9764074087142944
 1472,1,伴有意外[医疗]事故(另见意外[医疗]事故),with misadventure (see also Misadventure),Y69,0.9506052732467651
 1473,0,穿刺术(腹部)(胸部)(抽吸).,paracentesis (abdominal) (thoracic) (aspirative),Y84.4,0.9843047261238098
@@ -216,7 +216,7 @@
 1473,1,重建的 NEC,reconstructive NEC,Y83.4,0.9643267393112183
 1473,2,伴有,with,,0.8292797207832336
 1473,3,外造口形成手术,formation of external stoma,Y83.3,0.9720695614814758
-1473,2,吻合、分流或移植手术,"anastomosis, bypass or graft",Y83.2,0.9841567873954773
+1473,3,吻合、分流或移植手术,"anastomosis, bypass or graft",Y83.2,0.9841567873954773
 1473,1,特指的 NEC,specified NEC,Y83.8,0.9566032886505127
 1473,0,外造口，建造,"external stoma, creation of",Y83.3,0.9760826230049133
 1473,0,胃或十二指肠探子的插入,insertion of gastric or duodenal sound,Y84.5,0.978995144367218
@@ -277,7 +277,7 @@
 1476,1,床单，引起窒息.,"bed linen, causing suffocation",W75,0.9901177287101746
 1476,1,脚踏车车轮,wheel of pedal cycle,V19.8,0.9692501425743103
 1476,0,长期逗留在,Prolonged stay in,,0.9998993873596191
-1476,1,高海拔环境，作为缺氧、气压性牙痛、气压性耳炎或缺氧症的原因,"high altitudeas cause of anoxia, barodontalgia, barotitis or hypoxia",W94,0.9954113960266113
+1476,1,高海拔环境，作为缺氧、气压性牙痛、气压性耳炎或缺氧症的原因,"high altitude as cause of anoxia, barodontalgia, barotitis or hypoxia",W94,0.9954113960266113
 1476,1,失重环境,weightless environment,X52,0.9963006377220154
 1476,0,超声波(引起损伤),Supersonic waves (causing injury),W42,0.9957496523857117
 1476,0,潮湿，引起的问题,"Humidity, causing problem",X39,0.99904865026474
@@ -291,7 +291,7 @@
 1476,1,(市内有轨)电车(不伴有先前的碰撞)NEC,streetcar (without antecedent collision) NEC,V82.7,0.998068630695343
 1476,2,伴有先前的碰撞 NEC,with antecedent collision NEC,V82.3,0.9706448912620544
 1476,1,火车或铁路车辆(不伴有先前的碰撞)NEC,railway train or vehicle (rolling stock)(without antecedent collision) NEC,V81.7,0.9976473450660706
-1476,2,伴有先前的碰撞NECV81.3,with antecedent collision NEC,V81.3,0.9878636598587036
+1476,2,伴有先前的碰撞 NEC,with antecedent collision NEC,V81.3,0.9878636598587036
 1476,0,出血,Hemorrhage,,0.9999926686286926
 1476,1,医疗和手术治疗后迟延的，不伴有提及意外[医疗]事故(另见并发症，按操作类型),"delayed following medical or surgical treatment without mention of misadventure (see also Complication, by type of procedure)",Y84.9,0.9850591421127319
 1477,1,医疗和手术治疗期间的意外[医疗]事故(另见意外[医疗]事故，切割，按操作类型),"during medical or surgical treatment as misadventure (see also Misadventure, cut, by type of procedure)",Y60.9,0.9945300221443176
@@ -301,7 +301,7 @@
 1477,0,触电致死(意外的)(另见暴露，电流),"Electrocution (accidental) (see also Exposure, electric current)",W87,0.9918473362922668
 1477,0,穿刺(另见接触，与，按物体或机器的类型),"Piercing, Puncture, puncturing (see also Contact, with, bytype of object or machine)",W49,0.98216712474823
 1477,1,被,by,,0.9872531890869141
-1477,2,海胆棘 .-0,sea-urchin spine,X26,0.9184780716896057
+1477,2,海胆棘,sea-urchin spine,X26,0.9184780716896057
 1477,2,植物刺、棘、锋利的叶子或其他机械作用力NEC,"plant thorns, spines, sharp leaves or other mechanisms NEC",W60,0.9764986634254456
 1477,1,在医疗和手术治疗中的意外[医疗]事故(另见意外[医疗]事故，切割，按操作类型),"during medical or surgical treatment as misadventure (see also Misadventure, cut, by type of procedure)",Y60.9,0.9809303283691406
 1477,0,穿孔，在医疗和手术治疗期间的意外[医疗|事故(另见意外[医疗]事故，切割，按操作类型),"Perforation during medical or surgical treatment as misadventure (see also Misadventure, cut, by type of procedure)",Y60.9,0.97078537940979
@@ -310,7 +310,7 @@
 1477,1,战斗(另见作战行动),battle (see also War operations),Y36.9,0.9882170557975769
 1477,0,床铺着火 NEC,Bed set on fire NEC,X08,0.9752497673034668
 1477,0,刺，刺入,"Stab, stabbing",X99,0.9607332944869995
-1477,1,意外的(另见接触，与，被物体),"accidental (see also Contact, with, by object)",W49,0.9734458923339844
+1477,1,意外的(另见接触，与，被物体),"accidental (see also Contact, with, by object)",W26.9,0.9734458923339844
 1477,0,刺刀伤,Bayonet wound,W26,0.9877973198890686
 1477,1,在,in,,0.9581275582313538
 1477,2,依法处置中,legal intervention,Y35.4,0.9524490833282471
@@ -335,7 +335,7 @@
 1478,1,温(效应)(另见暴露，寒冷),"temperature (effects) (see also Exposure, cold)",X31,0.9823582768440247
 1478,1,压(效应).,pressure (effects),W94,0.9540691375732422
 1478,0,低气压病,"Hypobarism, hypobaropathy",W94,0.9565315246582031
-1478,0,地层(表面)移动NECX36,Earth (surface) movement NEC,X36,0.98676997423172
+1478,0,地层（表面）移动 NEC,Earth (surface) movement NEC,X36,0.98676997423172
 1478,0,地震(任何损伤),Earthquake (any injury),X34,0.9879689812660217
 1478,0,电休克(意外)(被)(由于)(另见暴露，电流),"Electric shock (accidental) (by) (in) (see also Exposure, electric current)",W87,0.9924950003623962
 1478,0,掉落，(意外地)被其他人员运送或搀扶[支撑]时,Dropped (accidentally) while being carried or supported by other person,W04,0.9793400764465332
@@ -354,7 +354,7 @@
 1478,2,机器的运动部分(另见接触，与，按机器类型),"moving part of machinery (see also Contact, with, by type of machine)",W31,0.9653314352035522
 1478,2,矿井,shaft,W17,0.9686251878738403
 1479,1,升降口,manhole,W17,0.9050397872924805
-1479,1,水(伴有淹溺或沉没)(另见,Drowning),W74,0.9546546936035156
+1479,1,水(伴有淹溺或沉没)(另见 淹溺),water (with drowning or submersion) (see also Drowning),W74,0.9546546936035156
 1479,1,水井,well,W17,0.956690788269043
 1479,0,涉及,involving,,0.9400976896286011
 1479,1,玻璃-见跌落，按类型,"glass – see Fall, by type",,0.9532327055931091
@@ -479,7 +479,7 @@
 1482,0,断头[砍头](意外事件) NEC .,Decapitation (accidental circumstances) NEC,X59.9,0.9779545664787292
 1482,1,他杀,homicide,X99,0.9205920100212097
 1482,1,依法处死(用断头台),legal execution (by guillotine),Y35.5,0.980968177318573
-1484,0,发射(意外的),Discharge (accidental)),,0.9336481690406799
+1484,0,发射(意外的),Discharge (accidental),,0.9336481690406799
 1484,1,BB手枪[滑膛气枪](另见发射，火器),"BB gun (see also Discharge, firearm)",W34,0.9787128567695618
 1484,1,步枪(军用)(狩猎)(另见发射，火器，较大型的),"rifle (army) (hunting) (see also Discharge, firearm, larger)",W33,0.9823076725006104
 1484,1,火器 NEC,firearm NEC,W34,0.9479021430015564
@@ -517,11 +517,11 @@
 1485,2,自杀(企图),suicide (attempt),X72,0.9536587595939636
 1485,1,烟火,firework(s),W39,0.9650999903678894
 1485,0,发现时已损伤(死亡),Found injured (dead),X59.9,0.9974009990692139
-1485,1,由于暴露-见暴露,from exposure (to)-see Exposure,,0.9560527801513672
+1485,1,由于暴露-见暴露,from exposure (to) – see Exposure,,0.9560527801513672
 1485,1,在...上,on,,0.8682171702384949
 1485,2,公路、道路、街道,"highway, road(way), street",V89.9,0.9778085350990295
 1485,2,铁路的道路用地,railway right of way,V81.9,0.9852360486984253
-1485,0,翻倒(意外的) nonfs,Overturning (accidental),,0.7356427311897278
+1485,0,翻倒(意外的),Overturning (accidental),,0.7356427311897278
 1485,1,机器(另见接触，与，按机器类型),"machinery (see also Contact, with, by type of machine)",W31,0.9733066558837891
 1485,1,小船、船、船舶(引起淹溺、沉没),"boat, ship, watercraft (causing drowning, submersion)",V90,0.972671389579773
 1485,2,引起损伤，除外淹溺或沉没,causing injury except drowning or submersion,V91,0.9928028583526611
@@ -538,10 +538,10 @@
 1485,0,焚化(意外的)(另见暴露，火),"Incineration (accidental) (see also Exposure, fire)",X09,0.9953581094741821
 1485,0,焚毁(由于火)(另见暴露，火),"Melting (due to fire) (see also Exposure, fire)",X09,0.9587882161140442
 1485,1,睡衣,nightwear,X05,0.9704621434211731
-1485,2,衣服 NEC,"apparel, clothes, clothing NEC",X06,0.9766308665275574
+1485,1,衣服 NEC,"apparel, clothes, clothing NEC",X06,0.9766308665275574
 1485,2,睡衣,nightwear,X05,0.9558345675468445
-1485,2,珠宝，塑料的,"jewelry, plastic",X06,0.9723444581031799
-1485,2,装置或家具(着火的的建筑物)(无控制性火焰),fittings or furniture (burning building) (uncontrolled fire),X00,0.9719780683517456
+1485,1,珠宝，塑料的,"jewelry, plastic",X06,0.9723444581031799
+1485,1,装置或家具(着火的的建筑物)(无控制性火焰),fittings or furniture (burning building) (uncontrolled fire),X00,0.9719780683517456
 1485,0,封闭于低氧环境,Confined in low-oxygen environment,W81,0.9929410815238953
 1485,0,服用,Took,,0.9999723434448242
 1485,1,毒物-见药物和化学制剂表,poison – see Table of drugs and chemicals,,0.9856921434402466
@@ -596,9 +596,9 @@
 1487,1,食物(骨头)(种子),food (bone) (seed),W79,0.9706801176071167
 1487,0,梗阻,Obstruction,,0.9996923208236694
 1487,1,呼吸,respiration,,0.9575416445732117
-1487,2,呕吐物(存在食管)(压迫气管),vomitus (lodged in esophagus) (compressio of trachea),W78,0.9774194359779358
+1487,2,呕吐物(存在食管)(压迫气管),vomitus (lodged in esophagus) (compression of trachea),W78,0.9774194359779358
 1487,2,食物(存在食管),food (lodged in esophagus),W79,0.9504552483558655
-1487,3,异物，除外食物或呕吐物(存在食管),"foreign body, except food or vomitus (lodged in esophagus)",W80,0.9766950011253357
+1487,2,异物，除外食物或呕吐物(存在食管),"foreign body, except food or vomitus (lodged in esophagus)",W80,0.9766950011253357
 1487,1,气道、喉、呼吸道,"air passages, larynx, respiratory passages",,0.9839555621147156
 1487,2,粘痰,phlegm,W80,0.9718137979507446
 1487,2,粘液,mucus,W80,0.9407495856285095
@@ -624,7 +624,7 @@
 1488,0,攻击，被动物NEC,Attack by mammal NEC,W55,0.9941468834877014
 1488,0,狗咬伤,Dog bite,W54,0.9696744680404663
 1488,0,骨折(未知或未特指的环境),Fracture (circumstances unknown or unspecified),X59.0,0.9998664855957031
-1488,1,由于特指的原因NECX58.,due to specified cause NEC,X58,0.9961526989936829
+1488,1,由于特指的原因 NEC,due to specified cause NEC,X58,0.9961526989936829
 1488,0,关闭于(意外地)(另见窒息),Shut in (accidentally) (see also Suffocation),,0.9949503540992737
 1488,1,空气稀薄的地方，除外塑料袋,"airtight space, except plastic bag",W81,0.9927434921264648
 1488,1,冷藏库,refrigerator,W81,0.9809718132019043
@@ -656,30 +656,30 @@
 1489,0,后遗症(...的),Sequelae (of),Y89.9,0.9608698487281799
 1489,1,故意自害(分类于X60-X84),intentional self-harm (classifiable to X60-X84),Y87.0,0.9771707653999329
 1489,1,机动车意外事故,motor vehicle accident,Y85.0,0.9938437342643738
-1489,1,加害(他杀)(任何方式)(分类于X85-Y09),assault (homicidal) (any means) (classifiable to X85-Y09,Y87.1,0.9839097857475281
+1489,1,加害(他杀)(任何方式)(分类于X85-Y09),assault (homicidal) (any means) (classifiable to X85-Y09),Y87.1,0.9839097857475281
 1489,1,手术和医疗操作作为异常反应或晚期并发症的原因(分类于Y83-Y84),surgical and medical procedures as cause of abnormal reaction or later complication (classifiable to Y83-Y84),Y88.3,0.9838240146636963
 1489,1,损伤不能确定是意外还是故意造成的(分类于Y10-Y34),injury undetermined whether accidentally or purposely inflicted (classifiable to Y10-Y34),Y87.2,0.9955833554267883
-1489,1,他杀，企图(任何方式)(分类于X85-Y09),"homicide, attempt (any means) (classifiable to X85-Y09",Y87.1,0.9888270497322083
+1489,1,他杀，企图(任何方式)(分类于X85-Y09),"homicide, attempt (any means) (classifiable to X85-Y09)",Y87.1,0.9888270497322083
 1489,1,药物和生物制品引起的有害效应，在治疗中使用的(分类于Y40-Y59),drugs and biologicals causing adverse effects in therapeutic use (classifiable to Y40-Y59),Y88.0,0.9906149506568909
 1489,1,医疗或手术操作引起的意外[医疗]事故,"medical or surgical procedure, resulting from",Y88.1,0.9935628771781921
 1489,1,依法处置,legal intervention,Y89.0,0.9782964587211609
-1489,1,意图不确定事件(分类于Y10-Y34),event of undetermined intent (classifiable to Y10-Y34,Y87.2,0.996525228023529
+1489,1,意图不确定事件(分类于Y10-Y34),event of undetermined intent (classifiable to Y10-Y34),Y87.2,0.996525228023529
 1489,1,意外[医疗]事故，病人在医疗或手术操作中的(分类于Y60-T69),misadventure to patient during medical or surgical procedure (classifiable to Y60–Y69),Y88.1,0.9741676449775696
 1489,1,意外事故 NEC(分类于W00-X59),accident NEC (classifiable to W00-X59),Y86,0.9622111916542053
-1490,2,有害事件，与诊断或治疗中使用的装置有关(分类于Y70-Y82),adverse incident associated with medical device in diagnostic or therapeutic use (classifiable to Y70-Y82,Y88.2,0.9894804954528809
-1490,2,运输意外事故，除外机动车,"transport accident, except motor vehicles",Y85.9,0.9933860301971436
-1490,2,自杀(企图)(任何方式)(分类于X60-X84),suicide (attempt) (any means) (classifiable to X60-X84,Y87.0,0.9831374287605286
+1490,1,有害事件，与诊断或治疗中使用的装置有关(分类于Y70-Y82),adverse incident associated with medical device in diagnostic or therapeutic use (classifiable to Y70-Y82),Y88.2,0.9894804954528809
+1490,1,运输意外事故，除外机动车,"transport accident, except motor vehicles",Y85.9,0.9933860301971436
+1490,1,自杀(企图)(任何方式)(分类于X60-X84),suicide (attempt) (any means) (classifiable to X60-X84),Y87.0,0.9831374287605286
 1490,1,作战行动,war operations,Y89.1,0.9874822497367859
 1490,0,呼吸阻断(被),Interruption of respiration (by),,0.9995628595352173
 1490,1,呕吐物(存在于食管),vomitus (lodged in esophagus),W78,0.9945331811904907
-1490,2,食物(存在于食管),food (lodged in esophagus),W79,0.9918845295906067
-1490,3,异物，除外食物或呕吐物(存在于食管),"foreign body, except food or vomitus(lodged in esophagus)",W80,0.9800572395324707
+1490,1,食物(存在于食管),food (lodged in esophagus),W79,0.9918845295906067
+1490,1,异物，除外食物或呕吐物(存在于食管),"foreign body, except food or vomitus(lodged in esophagus)",W80,0.9800572395324707
 1490,0,忽视[不顾](有罪的)(他杀企图)(另见遗弃),Neglect (criminal) (homicidal intent) (see also Abandonment),Y06.9,0.9817137122154236
 1490,0,划船，过度的,"Rowing, excessive",X50,0.9912278056144714
 1490,0,滑倒(意外的)(在同一水平)(伴有跌倒),Slipping (accidental) (on same level) (with fall),W01,0.9791474342346191
 1490,1,在...上,on,,0.9711511731147766
 1490,2,表面(滑的)(湿的) NEC,surface (slippery) (wet) NEC,W01,0.9591778516769409
-1490,2,冰 W0O,ice,W00,0.8249090909957886
+1490,2,冰,ice,W00,0.8249090909957886
 1490,3,伴有溜冰,with skates,W02,0.9757531881332397
 1490,2,泥,mud,W01,0.9797260761260986
 1490,2,雪,snow,W00,0.8695273995399475
@@ -688,9 +688,9 @@
 1490,0,灰尘迷眼,Dust in eye,W44,0.9579069018363953
 1490,0,火(意外的)(另见暴露，火),"Fire (accidental) (see also Exposure, fire)",X09,0.976009726524353
 1490,0,火山爆发(任何损伤),Volcanic eruption (any injury),X35,0.9955558776855469
-1491,0,击中(意外地)，被,hailstones,,0.9705390930175781
-1491,1,冰雹,"vehicle (transport) NEC (see also Accident,",X39,0.9726848602294922
-1491,1,车辆(运输)NEC(另见 意外事故，运输),transport),V09.9,0.9724461436271667
+1491,0,击中(意外地)，被,Struck (accidentally) by,,0.9705390930175781
+1491,1,冰雹,hailstones,X39,0.9726848602294922
+1491,1,车辆(运输)NEC(另见 意外事故，运输),"vehicle (transport) NEC (see also Accident, transport)",V09.9,0.9724461436271667
 1491,2,静止(由于起重机、液压起落设备、斜轨倒落),"stationary (falling from jack, hydraulic lift, ramp) - missile",W20,0.9363113045692444
 1491,2,火器(另见 发射，按火器类型),"firearm (see also Discharge, by type of firearm)",W34,0.9613112807273865
 1491,2,作战行动中-见作战行动，发射物,"in war operations – see War operations, missile",,0.9665235877037048
@@ -710,7 +710,7 @@
 1491,1,闪电,lightning,X33,0.952072262763977
 1491,1,闪光/维利式信号枪(另见 发射，火器),"flare, Very pistol (see also Discharge, firearm)",W34,0.9746202230453491
 1491,1,体育设施,sports equipment,W21,0.9705585241317749
-1491,1,物体NECW22,objectNEC,W22,0.9781273603439331
+1491,1,物体 NEC,objectNEC,W22,0.9781273603439331
 1491,2,被爆炸引起运动的(另见爆炸),set in motion by explosion (see also Explosion),W40,0.983893871307373
 1491,2,抛掷 NEC,thrown NEC,W20,0.9641274213790894
 1491,2,投掷 NEC,projected NEC .,W20,0.9360361099243164
@@ -753,9 +753,9 @@
 1493,0,挤压[压伤](意外地),Crushed (accidentally),X59.9,0.9970407485961914
 1493,1,被，由于,"by, in",,0.9404922127723694
 1493,2,蜂拥人群,crowd or human stampede,W52,0.9750654697418213
-1493,3,"机器NEC(另见接触,与,按机器类型)","machinery NEC (see also Contact, with, by type of machine)",W31,0.9502041935920715
+1493,2,"机器NEC(另见接触,与,按机器类型)","machinery NEC (see also Contact, with, by type of machine)",W31,0.9502041935920715
 1493,2,门(建筑物),door (building),W23,0.9520363807678223
-1493,2,爬行动物NECW59.,reptile NEC,W59,0.9876571297645569
+1493,2,爬行动物 NEC,reptile NEC,W59,0.9876571297645569
 1493,2,山崩NEC,landslide NEC,X36,0.9541810750961304
 1493,2,蛇(无毒的),snake (nonvenomous),W59,0.9909753203392029
 1493,3,有毒的,venomous,X20,0.8793158531188965
@@ -763,11 +763,11 @@
 1493,3,不伴有窒息,without asphyxia or suffocation,W20,0.8492741584777832
 1493,2,雪崩 NEC,avalanche NEC,X36,0.9248690009117126
 1493,2,坠落的,falling,,0.9282380938529968
-1493,2,飞行器,aircraft,V95.9,0.9427110552787781
-1493,3,作战行动中,in war operations,Y36.1,0.9592393040657043
+1493,3,飞行器,aircraft,V95.9,0.9427110552787781
+1493,4,作战行动中,in war operations,Y36.1,0.9592393040657043
 1493,3,泥土，物质(伴有窒息)(另见窒息，由于，塌方),"earth, material(with asphyxia or suffocation) (see also Suffocation, due to, cave-in)",W77,0.9827154278755188
-1493,3,不伴有窒息,without asphyxia or suffocation,W20,0.9749690294265747
-1493,2,物体NEC,object NEC,W20,0.943989098072052
+1493,4,不伴有窒息,without asphyxia or suffocation,W20,0.9749690294265747
+1493,3,物体NEC,object NEC,W20,0.943989098072052
 1493,2,蜥蜴(无毒的),lizard (nonvenomous),W59,0.9793330430984497
 1493,1,物体之间(运动)(静止和运动)(另见夹住),between objects (moving) (stationary and moving) (see also Caught),W23,0.9788125157356262
 1493,0,挤住[夹住](意外地),Trapped (accidentally),,0.9982128739356995
@@ -950,24 +950,24 @@
 1498,0,飞机(金属)(木制),plane (metal) (wood),W27,0.9707263708114624
 1498,1,在空中,overhead,W31,0.9247111678123474
 1498,0,飞镖,dart,W21,0.9875442981719971
-1498,1,非投掷、发射或坠落的,"not thrown, projected or falling",W45,0.9469284415245056
+1498,1,非投掷、发射或坠落的,"not thrown, projected or falling",W26.8,0.9469284415245056
 1498,0,缝纫机(电动)(动力的),sewing-machine (electric) (powered),W29,0.9772842526435852
 1498,1,手动的,not powered,W27,0.9631115794181824
 1498,0,斧头,axe,W27,0.9436887502670288
 1498,0,干冰,dry ice,W93,0.9451915621757507
 1498,0,干草叉,pitchfork,W27,0.9582870006561279
-1498,0,干草起重机、割草机或耙草机.,"hay-derrick, -mover or-rake",W30,0.975261926651001
+1498,0,干草起重机、割草机或耙草机.,"hay-derrick, -mover or -rake",W30,0.975261926651001
 1498,0,钢丝索(升降和传送装置用)NEC .,wire (for lifting and transmission devices) NEC,W24,0.9659896492958069
 1498,1,农业操作,agricultural operations,W30,0.9086093306541443
 1498,0,割草机(动力的)(驾驶的),lawnmower (powered) (ridden),W28,0.9378234148025513
 1498,1,手动的,unpowered,W27,0.9683663249015808
-1498,2,引起触电死,causingelectrocution,W86,0.9672396779060364
+1498,2,引起触电死,causing electrocution,W86,0.9672396779060364
 1498,1,工具 NEC,tool NEC,W27,0.9145265817642212
 1498,1,动力的 NEC,powered NEC,W29,0.9660211801528931
 1498,2,热的,hot,X17,0.9542200565338135
 1498,0,管，热的,"pipe, hot",X16,0.9526334404945374
 1498,0,罐头,can,,0.9068506956100464
-1498,1,盖子,lid,W45,0.9375550150871277
+1498,1,盖子,lid,W26.8,0.9375550150871277
 1498,1,开启工具,opener,W27,0.8928839564323425
 1498,2,动力的,powered,W29,0.9292055368423462
 1498,0,灌木树篱修剪器(动力的),hedge-trimmer (powered),W29,0.9622572064399719
@@ -982,12 +982,12 @@
 1498,0,壶(热的),kettle (hot),X15,0.9662955403327942
 1498,0,胡蜂(黄蜂),wasp(s),X23,0.9833451509475708
 1499,0,花园(果园、菜园),garden,,0.9353115558624268
-1499,1,叉子 .-0,fork,W27,0.8685501217842102
+1499,1,叉子,fork,W27,0.8685501217842102
 1499,1,耕田机(动力的).,cultivator (powered),W29,0.9765779972076416
 1499,2,行驶的,riding,W30,0.9471613168716431
 1499,0,滑轮(传送),pulley (block) (transmission),W24,0.9702737331390381
 1499,1,农业操作,agricultural operations,W30,0.986287534236908
-1499,0,火炉(热的)(厨房).-)(,stove (hot) (kitchen),X15,0.9422510862350464
+1499,0,火炉（热的）（厨房）,stove (hot) (kitchen),X15,0.9422510862350464
 1499,0,机器，NEC(另见接触，与，按机器类型),"machine, machinery NEC (see also Contact, with, by type of machine)",W31,0.9782382845878601
 1499,1,编织,weaving,W31,0.9303566217422485
 1499,1,采矿,mining,W31,0.9834892153739929
@@ -1018,17 +1018,17 @@
 1499,1,动力的(工业用),powered (industrial),W31,0.9912972450256348
 1499,1,家用的,domestic,W29,0.9841589331626892
 1499,0,箭,arrow,W21,0.9409085512161255
-1499,1,非投掷、发射或坠落的,"not thrown, projected or falling .",W45,0.9963881373405457
+1499,1,非投掷、发射或坠落的,"not thrown, projected or falling .",W26.8,0.9963881373405457
 1499,0,剑,sword,W26,0.9805010557174683
 1499,0,搅拌器,blender,W29,0.9759313464164734
 1500,0,绞盘,winch,W24,0.970058262348175
-1500,1,农业操作,agricultural operations W,W30,0.9099995493888855
-1500,0,节肢动物NEC,arthropodsNEC,,0.9607028961181641
-1500,1,无毒的,nonvenomousW57.,W57,0.9840329885482788
+1500,1,农业操作,agricultural operations,W30,0.9099995493888855
+1500,0,节肢动物NEC,arthropods NEC,,0.9607028961181641
+1500,1,无毒的,nonvenomous,W57,0.9840329885482788
 1500,1,有毒的,venomous,X25,0.9886924624443054
 1500,0,金环蛇,krait,X20,0.9223465323448181
 1500,0,金属，热的(液体)(熔化的)NECX1,"metal, hot (liquid)(molten) NEC X1",,0.968189537525177
-1500,0,锯.-2,saw,W27,0.9036781787872314
+1500,0,锯,saw,W27,0.9036781787872314
 1500,0,锯床，金属,"sawing machine, metal",W31,0.9716626405715942
 1500,1,带(工业用),band (industrial),W31,0.9746193289756775
 1500,1,链,chain,W29,0.945776641368866
@@ -1059,7 +1059,7 @@
 1500,0,喷沙机,sander,W29,0.9918707013130188
 1500,1,工业,industrial,W31,0.8902166485786438
 1500,0,平路机-见意外事故，运输，建筑车辆,"road scraper – see Accident, transport,",,0.9657595753669739
-1500,0,起重机(链式)(轴式) NEC,construction vehicle,W24,0.9824064373970032
+1500,0,起重机(链式)(轴式) NEC,hoist (chain) (shaft) NEC,W24,0.9824064373970032
 1500,1,农业操作,agricultural operations,W30,0.9858406186103821
 1501,0,千足虫,millipede,W57,0.9145669341087341
 1501,1,有毒的(热带),venomous (tropical),X24,0.975601077079773
@@ -1091,7 +1091,7 @@
 1501,0,饮料,drink .,X10,0.9489015936851501
 1501,1,油(烹调),oil (cooking),X10,0.9591585993766785
 1501,1,有柄平底锅(玻璃)(金属),saucepan (glass) (metal),X15,0.9610500931739807
-1501,1,蒸气,vapor - -0WD,X13,0.8635638952255249
+1501,1,蒸气,vapor,X13,0.8635638952255249
 1501,1,自来水(来自水管或水龙头)(在浴池、桶或浴盆中),"tap water (from hose or tap) (in bath, bucket or tub)",X11,0.9791796803474426
 1501,2,火炉上热的,heated on stove,X12,0.9354515671730042
 1501,0,散热器(热的),radiator (hot),X16,0.9603286385536194
@@ -1123,7 +1123,7 @@
 1502,0,铁铲,shovel,W27,0.9556117653846741
 1502,1,蒸气(固定使用中的),steam (in stationary use),W31,0.9717357158660889
 1502,0,脱粒机,thresher,W30,0.9730234742164612
-1502,0,挖掘犁.-1,under-cutter,W31,0.8145266175270081
+1502,0,挖掘犁,under-cutter,W31,0.8145266175270081
 1502,0,涡轮(气体)(水驱动),turbine (gas) (water-driven),W31,0.9773955941200256
 1502,0,蜈蚣(有毒的),centipede (venomous).,X24,0.9712367057800293
 1502,0,物体(钝的)NEC,object (blunt) NEC,,0.9792789220809937
@@ -1161,7 +1161,7 @@
 1503,1,节肢动物,arthropod,X25,0.9807806611061096
 1503,1,千足虫(热带),millipede (tropical),X24,0.9250978827476501
 1503,1,蛇,snake,X20,0.9383087158203125
-1503,1,蜥蜴,—lizard,X20,0.9170783758163452
+1503,1,蜥蜴,lizard,X20,0.9170783758163452
 1503,1,蜘蛛,spider,X21,0.9353034496307373
 1503,1,植物,plant,X29,0.9423792958259583
 1503,2,特指的 NEC,specified NEC,X28,0.9488433599472046
@@ -1186,19 +1186,19 @@
 1504,2,钻孔机(动力的),drill (powered),W29,0.9817801117897034
 1504,3,地面(陆地)(海底),earth (land) (seabed),W31,0.9477896094322205
 1504,3,手动的,nonpowered,W27,0.9778774380683899
-1504,0,进入的异物或物质？见异物,"Entry of foreign body or material ?see Fo reign body, object or material",,0.9622803330421448
+1504,0,进入的异物或物质？见异物,"Entry of foreign body or material – see Foreign body, object or material",,0.9622803330421448
 1504,0,浸没(意外的)(另见淹溺),Submersion (accidental) (see also Drowning),W74,0.9983028769493103
 1504,0,浸渍(意外的)(另见淹溺),Immersion (accidental) (see also Drowning),W74,0.9937354922294617
 1504,1,手或脚由于寒冷(过度的),hand or foot due to cold (excessive),X31,0.9941198825836182
 1504,0,精神折磨[横蛮行为](另见 虐待),Mental cruelty (see also Maltreatment),Y07.9,0.9828461408615112
 1504,0,举起(重物)(砝码)，过度的,"Lifting (heavy objects) (weights), excessive .",X50,0.9749631881713867
 1504,0,飓风(任何损伤),"Cyclone, Hurricane (any injury)",X37,0.984453558921814
-1505,0,砍伤手腕(另见切割，自己造成的),"Slashed wrists (see also Cut, self- inflicted)",Y28,0.9586076736450195
+1505,0,砍伤手腕(另见切割，自己造成的),"Slashed wrists (see also Cut, self-inflicted)",Y28,0.9586076736450195
 1505,0,拷打 - 见 虐待,Torture - see Maltreatment,,0.9176185131072998
 1505,0,空中,Air,,0.9999224543571472
 1505,1,爆炸，作战行动的,blast in war operations,Y36.2,0.9968073964118958
 1505,0,口渴(另见 缺乏，水),"Thirst (see also Lack of, water)",X54,0.9696189761161804
-1506,0,拉，过度的.-0,"Pulling, excessive",X50,0.9349437355995178
+1506,0,拉，过度的,"Pulling, excessive",X50,0.9349437355995178
 1506,0,勒杀[扼杀](意外的),Strangulation (accidental),W76,0.9864622354507446
 1506,1,被，由于，在...中,"by, due to, in",,0.9929659366607666
 1506,2,被褥、床单,"bed, bed linen",W75,0.9870588183403015
@@ -1230,7 +1230,7 @@
 1507,0,猫咬伤或抓伤,Cat bite or scratch,W55,0.9995218515396118
 1507,0,毛粪石(胃)(伴有梗阻),Hairball (stomach) (with obstruction),W44,0.990486204624176
 1507,0,冒烟(由于火)(另见暴露，火),"Smouldering (due to fire) (see also Exposure, fire)",X09,0.9885768890380859
-1507,0,猛砍手腕(另见切割，自己造成的),"Slashed wrists (see also Cut, self- inflicted)",Y28,0.9688909649848938
+1507,0,猛砍手腕(另见切割，自己造成的),"Slashed wrists (see also Cut, self-inflicted)",Y28,0.9688909649848938
 1507,0,密封装置破裂(另见爆炸，按装置类型),"Rupture of pressurized device (see also Explosion, by type of device)",W38,0.9874371290206909
 1507,0,谋杀(企图)(另见 加害),Murder (attempt) (see also Assault),Y09,0.9540352821350098
 1508,0,泥石流(自然灾害),Mudslide (of cataclysmic nature),X36,0.9878136515617371
@@ -1238,8 +1238,8 @@
 1508,1,不伴有窒息,without asphyxia or suffocation,W20,0.9174304008483887
 1508,0,碾过[踏过](意外地)(被),Run over (accidentally) (by),,0.9977505803108215
 1508,1,动物(不被驱赶) NEC,animal (not being ridden) NEC,W55,0.9598073363304138
-1508,2,被驱赶.,being ridden,V06,0.8358752727508545
-1508,1,"机器(另见 接触,与，按机器类型) .-一machinery (see also Contact, with, by type of",machine),W31,0.9718490839004517
+1508,2,被驱赶,being ridden,V06,0.8358752727508545
+1508,1,机器（另见接触，与，按机器类型）,"machinery (see also Contact, with, by type of machine)",W31,0.9718490839004517
 1508,1,运输车辆NEC(另见意外事故，运输),"transport vehicle NEC (see also Accident, transport)",V09.9,0.9863667488098145
 1508,2,不能确定是意外或故意的,undetermined whether accidental or intentional,Y33,0.9892082214355469
 1508,2,故意的，他杀(企图),"intentional, homicide (attempt)",Y03,0.9849607944488525
@@ -1285,10 +1285,9 @@
 1510,2,由于蜂拥人群所致的(伴有跌倒),caused by crowd or human stampede (with fall),W52,0.9907633066177368
 1510,1,行人(徒步运输工具),pedestrian (conveyance),W51,0.9975777268409729
 1510,2,伴有跌倒,with fall,W03,0.9847336411476135
-1511,0,第二部分 损伤的外部原因索引,pèng-pò 碰破1503,,0.9887101054191589
-1511,1,蜂拥人群(伴有跌倒),—crowd or human stampede (with fall),W52,0.9774085879325867
-1511,2,物体(静止),object (stationary),W22,0.9538349509239197
-1511,1,伴有跌倒,with fall,W18,0.9636691808700562
+1511,3,蜂拥人群(伴有跌倒),—crowd or human stampede (with fall),W52,0.9774085879325867
+1511,3,物体(静止),object (stationary),W22,0.9538349509239197
+1511,4,伴有跌倒,with fall,W18,0.9636691808700562
 1511,1,运输车辆 NEC,transport vehicle NEC,V89.9,0.9703519940376282
 1511,2,故意的、有目的的，自杀(企图),"intentional, purposeful, suicide (attempt)",X82,0.989510178565979
 1511,3,山崩、坠落或不运动的-见意外事故，运输,"landslide, fallen or not moving - see Accident, transport",,0.9652841687202454
@@ -1308,25 +1307,24 @@
 1512,0,潜水员病,Caisson disease,W94,0.9901459813117981
 1512,0,枪伤(另见 发射，按火器类型),"Gunshot wound (see also Discharge, by type of firearm)",W34,0.9567009806632996
 1512,0,强奸(企图),Rape (attempted),Y05,0.9718267917633057
-1512,0,"切割(身体任何部位)(意外的)(被)(另见接触,与,Cut, cutting (any part of body) (accidental) (by)被物体或机器)","(see also Contact, with, by object or machine)",W49,0.9737681150436401
+1512,0,"切割(身体任何部位)(意外的)(被)(另见接触,与,Cut, cutting (any part of body) (accidental) (by)被物体或机器)","Cut, cutting (any part of body) (accidental) (by) (see also Contact, with, by object or machine)",W26.9,0.9737681150436401
 1512,1,被他人造成的,inflicted by other person,,0.9996610283851624
 1512,2,描述为,stated as,,0.8937481641769409
 1512,3,不能确定是意外或故意的,undetermined whether accidental or intentional,Y28,0.9753972291946411
 1512,3,故意的，他杀(企图).,"— — intentional, homicide (attempt)",X99,0.9635154604911804
-1512,2,机器NEC(另见接触，与，按机器类型).,"machine NEC (see also Contact, with, by type of machine)",W31,0.9705381393432617
+1512,1,机器NEC(另见接触，与，按机器类型).,"machine NEC (see also Contact, with, by type of machine)",W31,0.9705381393432617
 1512,1,描述为不能确定是意外还是故意造成的,stated as undetermined whether accidentally or purposely inflicted,Y28,0.9776431322097778
-1512,2,他杀(企图),homicide (attempt),X99,0.987010657787323
+1512,1,他杀(企图),homicide (attempt),X99,0.987010657787323
 1512,1,依法,legal,,0.9841912388801575
 1512,2,处死,execution,Y35.5,0.8368221521377563
 1512,2,处置,intervention,Y35.4,0.9454127550125122
-1512,2,在医疗和手术治疗中的意外[医疗]事故(另见意外[医疗]事故，切割，按操作类型),"during medical or surgical treatment as misadventure (see also Misadventure, cut, by type of procedure)",Y60.9,0.9872468113899231
+1512,1,在医疗和手术治疗中的意外[医疗]事故(另见意外[医疗]事故，切割，按操作类型),"during medical or surgical treatment as misadventure (see also Misadventure, cut, by type of procedure)",Y60.9,0.9872468113899231
 1512,1,自己造成的(未特指是意外或故意的),self-inflicted (unspecified whether accidental or intentional),Y28,0.9782487750053406
 1512,2,描述为故意的、有目的的，自杀(企图),"stated as intentional, purposeful, suicide (attempt)",X78,0.9855605363845825
 1512,2,自杀(企图),suicide (attempt),X78,0.9825279712677002
 1512,2,作战行动,war operations,Y36.4,0.9851058721542358
 1512,0,倾盆大雨(任何损伤),Cloudburst (any injury),X37,0.9685544371604919
 1512,0,穷困(另见缺乏),Destitution (see also Privation),X57,0.9955134391784668
-1513,0,第二部分 损伤的外部原因索引,quē 缺 1505,,0.9716072678565979
 1513,0,缺乏,"Lack of, Deprivation, Privation",X57,0.9710401296615601
 1513,1,空气(冷藏库或封闭的地方)，被窒息,"air (refrigerator or closed place), suffocation by",W81,0.9843999743461609
 1513,1,食物(另见缺乏，食物)(除外作为遗弃忽视照料的结果),"food (see also Lack of, food)(except as result of abandonment or neglect)",X53,0.9841437935829163
@@ -1335,7 +1333,7 @@
 1513,2,不能自理者、婴儿、新生儿(另见遗弃),"helpless person, infant, newborn (see also Abandonment)",Y06.9,0.9776360988616943
 1513,1,他杀意图(另见遗弃),homicidal intent (see also Abandonment),Y06.9,0.9871283173561096
 1513,1,由于遗弃或忽视照料(另见遗弃),due to abandonment or neglect (see also Abandonment),Y06.9,0.9968189001083374
-1513,1,照料(不能自理者)(婴儿)(新生儿)(另见遗弃),care (helpless person) (infant) (newborn) (see also,,0.9683563709259033
+1513,1,照料(不能自理者)(婴儿)(新生儿)(另见遗弃),care (helpless person) (infant) (newborn) (see also Abandonment),,0.9683563709259033
 1514,0,燃烧，自发的(另见着火),"Combustion, spontaneous (see also Ignition)",X09,0.9901806116104126
 1514,0,燃烧，着火(意外的)(被)(由于)(在...上),"Burn, burned, burning (accidental) (by) (from) (on)",X09,0.9899564981460571
 1514,1,被他人造成的,inflicted by other person,,0.998954176902771
@@ -1385,7 +1383,7 @@
 1515,1,管,pipe,X16,0.8894604444503784
 1515,1,壶,kettle,X15,0.9338711500167847
 1515,1,机器,machinery,X17,0.9566580057144165
-1515,1,家用电器 NECX15,household appliance NEC,X15,0.9339603781700134
+1515,1,家用电器 NEC,household appliance NEC,X15,0.9339603781700134
 1515,1,加热器,heating appliance,X16,0.9688044786453247
 1515,1,金属(液体)(熔化的) NEC,metal (liquid) (molten) NEC,X18,0.9414035677909851
 1515,1,烤面包器,toaster,X15,0.9604926705360413
@@ -1398,7 +1396,7 @@
 1515,2,火炉上热的,heated on stove,X12,0.9331430196762085
 1515,1,物体(不产生火或火焰) NEC,object (not producing fire or flames)NEC,X19,0.9652641415596008
 1515,1,物质 NEC,substance NEC,X19,0.9547262787818909
-1515,2,苛性或腐蚀性NEC -见 药物和化学制剂表,caustic or corrosive NEC - seeTable of drugs and chemicals,,0.9409867525100708
+1515,2,苛性或腐蚀性NEC -见 药物和化学制剂表,caustic or corrosive NEC — see Table of drugs and chemicals,,0.9409867525100708
 1515,1,液体 NEC,"fluid, liquid NEC",X12,0.9521492719650269
 1515,1,医疗或手术操作中的局部敷剂或填塞物,in local application or packing during medical or surgical procedure,Y63.5,0.9736115336418152
 1515,1,饮料,drink,X10,0.9394183158874512
@@ -1425,7 +1423,7 @@
 1516,0,液体(煮沸)(热的)NEC,liquid (boiling) (hot) NEC,X12,0.9765845537185669
 1516,0,衣服NEC(由于受控制的火),"clothes, clothing NEC (from controlled fire)",X06,0.9686872363090515
 1516,1,伴有大火灾,with conflagration,X00,0.9700877666473389
-1516,2,不在大楼或建筑物中,—not in building or structure,X01,0.9686222076416016
+1516,2,不在大楼或建筑物中,not in building or structure,X01,0.9686222076416016
 1516,0,有柄平底锅(热的)(玻璃)(金属),saucepan (hot) (glass) (metal),X15,0.9725614190101624
 1516,0,着火(另见着火),ignition (see also Ignition),X09,0.995618999004364
 1516,1,高度易燃物质(石油精)(润滑油)(汽油)(煤油)(石蜡),highly flammable material (benzine) (fat) (gasoline) (kerosene) (paraffin) (petrol),X04,0.9714480638504028
@@ -1442,10 +1440,9 @@
 1516,2,苛性或腐蚀性物质NEC,caustic or corrosive substance NEC,X83,0.9794245958328247
 1516,0,自杀(企图) NEC,suicide (attempt) NEC,X76,0.9280902743339539
 1516,1,苛性物质,caustic substance,X83,0.9883525371551514
-1516,0,作战行动(由于起火装置或常规武器)NEC(另见作战行动),in war operations (from fire-producing device or conventional weapon) NEC (see also War,Y36.3,0.9702662229537964
+1516,0,作战行动(由于起火装置或常规武器)NEC(另见作战行动),in war operations (from fire-producing device or conventional weapon) NEC (see also War operations),Y36.3,0.9702662229537964
 1516,1,核爆炸,nuclear explosion,Y36.5,0.9628441333770752
-1516,1,汽油弹,nuclear explosion,Y36.5,0.9926150441169739
-1517,0,第二部分损伤的外部原因索引,rè-rì 热日1509,,0.9922093749046326
+1516,1,汽油弹,petrol bomb,Y36.3,0.9926150441169739
 1517,0,热(效应)(过度的),"Heat (effects of) (excessive), Hot",X30,0.9709283113479614
 1517,1,地方，效应(另见热),"place, effects (see also Heat)",X30,0.9919946193695068
 1517,1,天气，效应,"weather, effects",X30,0.9554587006568909
@@ -1472,7 +1469,7 @@
 1518,3,意外事故NEC,accident NEC,X59.9,0.9747868776321411
 1518,3,自杀(另见自杀),suicide (see also Suicide),X84,0.9837319850921631
 1518,0,杀人(非意外的)(另见加害),Manslaughter (nonaccidental) (see also Assault),Y09,0.9870719313621521
-1518,0,杀婴(另见加害,Infanticide (see also Assault),Y09,0.9998106956481934
+1518,0,杀婴（另见加害）,Infanticide (see also Assault),Y09,0.9998106956481934
 1518,0,山崩,Landslide,X36,0.9998435378074646
 1518,1,坠落在...上，击中,"falling on, hitting",,0.997279703617096
 1518,2,火车或铁路车辆,railway train or vehicle,X36,0.993047833442688
@@ -1594,14 +1591,14 @@
 1522,0,加害(被),inflicted (by),,0.9909041523933411
 1522,1,其他人员,other person,,0.8768166899681091
 1522,2,描述为,stated as,,0.8535819053649902
-1522,2,不能确定是意外或故意的(另见损伤，描述为，不确定的),"undetermined whether accidental or intentional (see also Injury, stated as, undetermined)",Y34,0.958346962928772
-1522,1,故意的，他杀(企图)(另见加害).,"intentional, homicide (attempt) (see also Assault)",Y09,0.9659179449081421
-1522,2,意外的,accidental,X59.9,0.8953847289085388
+1522,3,不能确定是意外或故意的(另见损伤，描述为，不确定的),"undetermined whether accidental or intentional (see also Injury, stated as, undetermined)",Y34,0.958346962928772
+1522,3,故意的，他杀(企图)(另见加害).,"intentional, homicide (attempt) (see also Assault)",Y09,0.9659179449081421
+1522,3,意外的,accidental,X59.9,0.8953847289085388
 1522,0,描述为,stated as,,0.9733750224113464
 1522,1,不能确定是意外还是故意造成的(被),undetermined whether accidentally or purposely inflicted (by),Y34,0.9875167012214661
 1522,2,爆炸物(发射物),explosive(s) (missile),Y25,0.9667436480522156
 1522,1,穿刺，刺(身体任何部位),"puncture, stab (any part of body)",Y28,0.968815267086029
-1522,1,刀子,knife,Y28,0.9037760496139526
+1522,2,刀子,knife,Y28,0.9037760496139526
 1522,0,勒杀,strangulation,Y20,0.9452126026153564
 1522,1,切割(身体任何部位),cut (any part of body),Y28,0.9735170006752014
 1522,0,切割或穿刺器械,cutting or piercing instrument,Y28,0.9899001717567444
@@ -1631,25 +1628,25 @@
 1523,0,烫伤(意外的)(被)(由于)(在...中).,"Scald, scalding (accidental) (by) (from) (in)",X19,0.9733942747116089
 1523,1,被他人造成的,inflicted by other person,,0.9703294038772583
 1523,2,描述为,stated as,,0.8733202219009399
-1523,3,不能确定是意外或故意的,— —undetermined whether accidental or intentional,Y27,0.9539819955825806
+1523,3,不能确定是意外或故意的,undetermined whether accidental or intentional,Y27,0.9539819955825806
 1523,3,故意的，他杀(企图),"intentional, homicide (attempt)",X98,0.9885919690132141
-1523,2,金属(热的)(液体)(熔化的) NEC .,metal (hot) (liquid) (molten)NEC,X18,0.9639032483100891
-1523,2,空气(热的),air (hot),X14,0.9549189209938049
-1523,2,描述为不能确定是意外或故意的,stated as undetermined whether accidental or intentional,Y27,0.9589731097221375
-1523,2,气体(热的),gases (hot),X14,0.9898743033409119
-1523,2,他杀(企图),homicide (attempt),X98,0.9694219827651978
-1523,2,液体(煮沸)(热的) NEC,liquid (boiling) (hot) NEC,X12,0.9563021063804626
-1523,2,医疗或手术治疗中局部使用的外用物质,local application of externally applied substance in medical or surgical care,Y63.5,0.9983861446380615
-1523,2,蒸气(热的),"steam, vapor (hot)",X13,0.9731001257896423
-1523,2,自己造成的(未特指是意外或故意的),self-inflicted (unspecified whether accidental or intentional),Y27,0.9821961522102356
+1523,1,金属(热的)(液体)(熔化的) NEC .,metal (hot) (liquid) (molten)NEC,X18,0.9639032483100891
+1523,1,空气(热的),air (hot),X14,0.9549189209938049
+1523,1,描述为不能确定是意外或故意的,stated as undetermined whether accidental or intentional,Y27,0.9589731097221375
+1523,1,气体(热的),gases (hot),X14,0.9898743033409119
+1523,1,他杀(企图),homicide (attempt),X98,0.9694219827651978
+1523,1,液体(煮沸)(热的) NEC,liquid (boiling) (hot) NEC,X12,0.9563021063804626
+1523,1,医疗或手术治疗中局部使用的外用物质,local application of externally applied substance in medical or surgical care,Y63.5,0.9983861446380615
+1523,1,蒸气(热的),"steam, vapor (hot)",X13,0.9731001257896423
+1523,1,自己造成的(未特指是意外或故意的),self-inflicted (unspecified whether accidental or intentional),Y27,0.9821961522102356
 1523,2,描述为故意的、有目的的，自杀(企图),"stated as intentional, purposeful, suicide (attempt)",X77,0.9795637726783752
-1523,2,自杀(企图),suicide (attempt),X77,0.988959550857544
+1523,1,自杀(企图),suicide (attempt),X77,0.988959550857544
 1523,0,踢，被,Kicked by,,0.9996721744537354
 1523,1,动物 NEC,animal NEC,W55,0.8742563724517822
 1523,1,人员(意外地),person(s) (accidentally),W50,0.9706177711486816
-1523,1,伴有故意伤害或杀害,with intent to injure or kill,Y04,0.9695454239845276
-1523,1,斗殴中,in fight,Y04,0.968675434589386
-1523,1,由于蜂拥人群所致的(伴有跌倒),"as, or caused by, a crowd or human stampede (with fall)",W52,0.9803162217140198
+1523,2,伴有故意伤害或杀害,with intent to injure or kill,Y04,0.9695454239845276
+1523,2,斗殴中,in fight,Y04,0.968675434589386
+1523,2,由于蜂拥人群所致的(伴有跌倒),"as, or caused by, a crowd or human stampede (with fall)",W52,0.9803162217140198
 1523,0,踢向,Kicking against,,0.9994356632232666
 1523,1,人员(另见撞在...上，人员),"person (see also Striking against, person)",W51,0.9822588562965393
 1523,1,体育设施,sports equipment,W21,0.9733962416648865
@@ -1680,18 +1677,17 @@
 1524,2,到运动物体、火车、车辆之前,"before moving object, train, vehicle",,0.9435755014419556
 1524,3,描述为,stated as,,0.8869830965995789
 1524,4,不能确定是意外还是故意造成的,undetermined whether accidentally or purposely inflicted,Y33,0.9523952007293701
-1524,5,故意的，他杀(企图),"intentional, homicide (attempt)",Y02,0.9778918623924255
+1524,4,故意的，他杀(企图),"intentional, homicide (attempt)",Y02,0.9778918623924255
 1524,2,由于蜂拥人群所致的(伴有跌倒),"as, or caused by, a crowd or human stampede (with fall)",W52,0.9774422645568848
 1524,3,高处 NEC,high place NEC,,0.9006085395812988
 1524,4,描述为,stated as,,0.9973978400230408
-1524,4,不能确定是意外还是故意造成的,undetermined whether accidentally or purposelyinflicted,Y30,0.9865252375602722
-1524,4,故意的，他杀(企图),"intentional, homicide (attempt)",Y01,0.9721376895904541
+1524,5,不能确定是意外还是故意造成的,undetermined whether accidentally or purposelyinflicted,Y30,0.9865252375602722
+1524,5,故意的，他杀(企图),"intentional, homicide (attempt)",Y01,0.9721376895904541
 1524,4,意外的事件中,in accidental circumstances,W17,0.980792760848999
-1525,0,第二部分 损伤的外部原因索引,tuī-tuō推吞拖脱1517,,0.9788845777511597
-1525,1,运输车辆NEC(另见意外事故，运输),"transport vehicle NEC (see also Accident, transport)",V89.9,0.9713305234909058
-1525,2,描述为,stated as,,0.9997341632843018
-1525,3,不能确定是意外还是故意造成的,undetermined whether accidentally or purposely inflicted,Y33,0.9738835096359253
-1525,2,故意的，他杀(企图),"intentional, homicide (attempt)",Y08,0.9878215789794922
+1525,3,运输车辆NEC(另见意外事故，运输),"transport vehicle NEC (see also Accident, transport)",V89.9,0.9713305234909058
+1525,4,描述为,stated as,,0.9997341632843018
+1525,5,不能确定是意外还是故意造成的,undetermined whether accidentally or purposely inflicted,Y33,0.9738835096359253
+1525,5,故意的，他杀(企图),"intentional, homicide (attempt)",Y08,0.9878215789794922
 1525,0,吞咽,"Swallowed, swallowing",,0.9978092312812805
 1525,1,毒物-见药物和化学制剂表,poison – see Table of drugs and chemicals,,0.9889541864395142
 1525,1,物质,substance,,0.9403300285339355
@@ -1735,7 +1731,7 @@
 1527,1,热(的)(过度的)(另见热),heat (excessive) (see also Heat),X30,0.982361912727356
 1527,2,地方(另见热),place (see also Heat),X30,0.9801937937736511
 1527,2,天气,weather,X30,0.9117361903190613
-1527,1,晚期-见后遗症,late– see Sequelae,,0.961143970489502
+1527,1,晚期-见后遗症,late – see Sequelae,,0.961143970489502
 1527,1,运动,motion,X51,0.97843998670578
 1527,1,中暑,insolation,X30,0.9206499457359314
 1528,0,休克,Shock,,0.9995015263557434
@@ -1745,9 +1741,9 @@
 1528,1,被其他人员,caused by other person,,0.9979183077812195
 1528,2,描述为,stated as,,0.8933748006820679
 1528,3,不能确定是意外或故意的,undetermined whether accidental or intentional,Y20,0.975530743598938
-1528,3,故意的，他杀(企图),"—intentional, homicide (attempt) .",X91,0.9748640656471252
+1528,3,故意的，他杀(企图),"intentional, homicide (attempt)",X91,0.9748640656471252
 1528,2,意外事件中.,in accidental circumstances,W76,0.9827280044555664
-1528,1,描述为不能确定是意外还是故意造成的,stated as undetermined whether accidentallyor purposely inflicted,Y20,0.9832178354263306
+1528,1,描述为不能确定是意外还是故意造成的,stated as undetermined whether accidentally or purposely inflicted,Y20,0.9832178354263306
 1528,1,他杀(企图),homicide (attempt),X91,0.9412913918495178
 1528,1,依法处死,legal execution,Y35.5,0.9605264663696289
 1528,1,在床上或摇篮中,in bed or cradle,W75,0.9784940481185913
@@ -1835,7 +1831,7 @@
 1531,2,有毒的,venomous,X26,0.9363333582878113
 1531,3,蛇,snake,X20,0.838722825050354
 1531,1,海鳗,moray eel,W56,0.9642041921615601
-1531,1,黑寡妇蜘蛛,blackwidow spider,X21,0.9757021069526672
+1531,1,黑寡妇蜘蛛,black widow spider,X21,0.9757021069526672
 1531,1,节肢动物(无毒的)NEC,arthropod (nonvenomous) NEC,W57,0.9871464967727661
 1531,2,有毒的(另见接触，与，按节肢动物的类型),"venomous (see also Contact, with, by type of arthropod)",X25,0.9915804266929626
 1531,1,金环蛇,krait,X20,0.9699541926383972
@@ -1846,7 +1842,7 @@
 1531,1,啮齿动物，除外鼠,"rodent, except rat",W55,0.9950190782546997
 1531,1,爬行动物 NEC,reptile NEC,W59,0.9684466123580933
 1531,1,千足虫,millipede,W57,0.9892224073410034
-1531,2,有毒的(热带),— venomous (tropical),X24,0.9524944424629211
+1531,2,有毒的(热带),venomous (tropical),X24,0.9524944424629211
 1531,1,枪头蛇,fer de lance,X20,0.992779552936554
 1531,1,人(意外的),"human being, person(s) (accidental)",W50,0.9875462055206299
 1531,2,故意的,intentional,Y08,0.9761928915977478
@@ -1902,7 +1898,7 @@
 1532,1,耳(引起损伤或梗阻),ear (causing injury or obstruction),W44,0.9900186657905579
 1532,1,喉(另见异物，气道),"larynx (see also Foreign body, air passage)",W44,0.974902331829071
 1532,1,结合膜囊,conjunctival sac,W44,0.9750609993934631
-1532,1,进入[吮吸](不伴有窒息，呼吸道梗阻),"aspiration (without asphyxia, obstruction of",W44,0.9845269918441772
+1532,1,进入[吮吸](不伴有窒息，呼吸道梗阻),"aspiration (without asphyxia, obstruction of respiratory passage, suffocation)",W44,0.9845269918441772
 1532,2,伴有呼吸道梗阻，窒息,"with asphyxia, obstruction of respiratory passage, or suffocation",W80,0.9826021790504456
 1532,3,呕吐物,vomitus,W78,0.9837803244590759
 1532,3,食物,food,W79,0.952032744884491
@@ -1927,7 +1923,7 @@
 1533,0,气管,trachea,W44,0.9504326581954956
 1533,1,引起窒息 NEC,causing suffocation NEC,W80,0.9570428729057312
 1533,2,呕吐物,vomitus,W78,0.9668008089065552
-1533,3,食物,food,W79,0.9465116858482361
+1533,2,食物,food,W79,0.9465116858482361
 1533,0,食管(引起损伤或梗阻),"esophagus, oesophagus (causing injury or obstruction)",W44,0.9906129837036133
 1533,1,引起气管压迫伴有呼吸阻断或梗阻,causing compression of trachea with interruption or obstruction of respiration,W80,0.9778152704238892
 1533,0,食入,ingestion,W44,0.9685628414154053
@@ -1947,10 +1943,9 @@
 1534,1,"咽(另见异物,消化道，咽)","pharynx (see also Foreign body, alimentary canal, pharynx)",W44,0.9645754098892212
 1534,1,眼(任何部分),eye (any part),W44,0.9734916687011719
 1534,1,阴道(引起损伤或梗阻),vagina (causing injury or obstruction),W44,0.9810606837272644
-1534,1,支气管(另见异物，气道),"bronchus, bronchi (see also Foreign body, ain passage)",W44,0.9816519618034363
+1534,1,支气管(另见异物，气道),"bronchus, bronchi (see also Foreign body, air passage)",W44,0.9816519618034363
 1534,1,直肠(引起损伤或梗阻),rectum (causing injury or obstruction),W44,0.9823371767997742
-1534,0,意外[医疗]事故，在手术或医疗治疗中对病人的,Misadventure(s) to patient(s) during surgical or,,0.9963868856430054
-1534,1,另见意外事故,medical care – see also Accident,Y69,0.983283519744873
+1534,0,意外[医疗]事故，在手术或医疗治疗中对病人的，另见意外事故,Misadventure(s) to patient(s) during surgical or medical care – see also Accident,Y69,0.9963868856430054
 1534,1,病人不慎暴露于辐射,inadvertent exposure of patient to radiation,Y63.3,0.9737245440483093
 1534,1,不适当的,inappropriate,,0.978949248790741
 1534,2,局部敷剂或填塞物的温度(太热或太冷),—temperature (too hot or too cold) in local application or packing,Y63.5,0.9721508026123047
@@ -2026,7 +2021,7 @@
 1536,1,配错血,mismatched blood,Y65.0,0.9767263531684875
 1536,0,输注(另见意外[医疗]事故，按类型，输注),"infusion (see also Misadventure, by type, infusion)",Y69,0.9937190413475037
 1536,1,不正确的液体稀释,incorrect dilution of fluid,Y63.1,0.9841392636299133
-1536,1,错误的液体,wrongfluid,Y65.1,0.9933680891990662
+1536,1,错误的液体,wrong fluid,Y65.1,0.9933680891990662
 1536,1,过量的液体,excessive amount of fluid,Y63.0,0.9945773482322693
 1536,0,特指的类型 NEC,specified type NEC,Y65.8,0.9841863512992859
 1536,0,晚期效应,late effect (of),Y88.1,0.9730455279350281
@@ -2062,7 +2057,7 @@
 1537,2,液体或组织的抽吸(穿刺或导管插入术，除外心脏),"aspiration of fluid or tissue (by puncture or catheterization, except heart)",Y61.6,0.9640609622001648
 1537,2,针刺活组织检查,needle biopsy,Y61.6,0.9620652198791504
 1537,2,注射,injection,Y61.3,0.9453641772270203
-1537,1,用药过量-见药物和化学制剂表,overdose — seeTable of drugs and chemicals,,0.981178343296051
+1537,1,用药过量-见药物和化学制剂表,overdose — see Table of drugs and chemicals,,0.981178343296051
 1537,2,辐射(治疗中),radiation (in therapy),Y63.2,0.9890941381454468
 1537,1,在输血中使用配错的血,mismatched blood in transfusion,Y65.0,0.9829778075218201
 1537,0,意外事故,Accident (to),X59.9,0.9963805079460144
@@ -2076,11 +2071,11 @@
 1537,1,船舶 NEC,watercraft NEC,V94,0.9696630239486694
 1537,2,由于自然灾害引起-见自然灾害，按类型,"due to, caused by cataclysm – see Cataclysm, by type",,0.9575713276863098
 1537,1,大轿车NEC(另见意外事故，运输),"coach NEC (see also Accident, transport)",V79.9,0.9829902052879333
-1538,0,电车(市内有轨)NEC(另见 意外事故，运输),"streetcar NEC (see also Accident, transport) nonmotor vehicle NEC (nontraffic) (see also",V82.9,0.9687469601631165
+1538,0,电车(市内有轨)NEC(另见 意外事故，运输),"streetcar NEC (see also Accident, transport)",V82.9,0.9687469601631165
 1538,0,"非机动车 NEC(非交通性)(另见 意外事故,运输)","nonmotor vehicle NEC (nontraffic) (see also Accident, transport)",V89.1,0.9584755301475525
-1538,1,交通性 NEC,aircraft (in transit)(powered) NEC (see also,V89.3,0.9834601879119873
-1538,0,飞行器(飞行中)(动力的)NEC(另见意外事故，运输),"Accident, transport) due to, caused by cataclysm — see Cataclysm,",V95.9,0.9681633114814758
-1538,1,由于自然灾害引起-见自然灾害，按类型,by type,,0.9614564776420593
+1538,1,交通性 NEC,traffic NEC,V89.3,0.9834601879119873
+1538,0,飞行器(飞行中)(动力的)NEC(另见意外事故，运输),"aircraft (in transit) (powered) NEC (see also Accident, transport)",V95.9,0.9681633114814758
+1538,1,由于自然灾害引起-见自然灾害，按类型,"due to, caused by cataclysm – see Cataclysm, by type",,0.9614564776420593
 1538,0,公共汽车NEC(另见 意外事故，运输),"bus NEC (see also Accident, transport)",V79.9,0.9679401516914368
 1538,0,后遗症(另见后遗症),sequelae of (see also Sequelae),Y86,0.9644405841827393
 1538,0,滑雪,ski(ing),W02,0.9649878144264221
@@ -2092,12 +2087,12 @@
 1538,0,潜水,diving,W16,0.9429386854171753
 1538,1,伴有,with,,0.7560763359069824
 1538,2,空气供给不足,insufficient air supply,W81,0.9603219628334045
-1538,2,淹溺或沉没(另见淹溺),drowningor submersion (see also Drowning),W74,0.9743314981460571
+1538,2,淹溺或沉没(另见淹溺),drowning or submersion (see also Drowning),W74,0.9743314981460571
 1538,0,轻型货车或篷车(另见意外事故，运输),"pick-up truck or van (see also Accident, transport)",V59.9,0.9982175827026367
 1538,0,牲畜骑手NEC(另见意外事故，运输),"animal-rider NEC (see also Accident, transport)",V80.9,0.9785909056663513
 1538,0,特指的原因NEC,specified cause NEC,X58,0.9826698899269104
 1538,0,铁路车辆(任何)(行驶中)NEC(另见意外事故，运输),"railway vehicle (any)(in motion) NEC (see also Accident, transport)",V81.9,0.9892196655273438
-1538,1,由于自然灾害-见自然灾害，按类型,"— due to cataclysm - see Cataclysm, by type",,0.9656067490577698
+1538,1,由于自然灾害-见自然灾害，按类型,"due to cataclysm – see Cataclysm, by type",,0.9656067490577698
 1538,0,晚期效应(另见后遗症),late effect of (see also Sequelae),Y86,0.9830659031867981
 1538,0,小船，划船 NEC,"boat, boating NEC",V94,0.9550409913063049
 1538,0,小汽车NEC(另见意外事故，运输),"car NEC (see also Accident, transport)",V49.9,0.9640625715255737
@@ -2124,373 +2119,373 @@
 1539,1,蒸汽(另见燃烧，蒸汽).,"steam (see also Burning, steam)",X13,0.9872918128967285
 1539,1,着火(另见着火),ignition (see also Ignition),X09,0.9820705056190491
 1539,1,自然因素NEC,natural factor NEC,X58,0.9569692015647888
-1539,0,运输(涉及损伤)(另见陆地运输意外事故表),transport (involving injury to) (see also Table of,,0.9911317229270935
+1539,1,运输(涉及损伤)(另见陆地运输意外事故表),transport (involving injury to) (see also Table of land transport accidents),V99,0.9911317229270935
 1539,1,三轮机动车(在...中),three-wheeled motor vehicle (in),V39.9,0.9758006930351257
 1539,2,非交通性,nontraffic,V39.3,0.9750623106956482
 1539,2,碰撞(机动车)(与),collision (motor vehicle) (with),V39.6,0.9819666743278503
 1539,3,电车(市内有轨),streetcar,V36,0.9686700105667114
-1539,1,动物,animal,V30,0.9544785618782043
-1539,2,被驱赶,being ridden,V36,0.9694466590881348
-1539,2,非机动车,nonmotor vehicle,V36,0.9714754223823547
-1539,2,非交通性,nontraffic,V39.2,0.9322084188461304
-1539,2,乘客,passenger,V39.1,0.9377757906913757
-1539,2,司机,driver,V39.0,0.9425706267356873
-1539,2,公共汽车或重型运输车,bus or heavy transport vehicle,V34,0.9522559642791748
-1539,1,固定或静止的物体,fixed or stationary object,V37,0.9703982472419739
-1539,1,火车或铁路车辆,railway train or vehicle,V35,0.9899479746818542
-1539,2,交通性,traffic,V39.6,0.950402021408081
-1539,3,乘客,passenger,V39.5,0.9341356158256531
+1539,3,动物,animal,V30,0.9544785618782043
+1539,4,被驱赶,being ridden,V36,0.9694466590881348
+1539,3,非机动车,nonmotor vehicle,V36,0.9714754223823547
+1539,3,非交通性,nontraffic,V39.2,0.9322084188461304
+1539,4,乘客,passenger,V39.1,0.9377757906913757
+1539,4,司机,driver,V39.0,0.9425706267356873
+1539,3,公共汽车或重型运输车,bus or heavy transport vehicle,V34,0.9522559642791748
+1539,3,固定或静止的物体,fixed or stationary object,V37,0.9703982472419739
+1539,3,火车或铁路车辆,railway train or vehicle,V35,0.9899479746818542
+1539,3,交通性,traffic,V39.6,0.950402021408081
+1539,4,乘客,passenger,V39.5,0.9341356158256531
 1539,4,司机,driver,V39.4,0.8758814930915833
-1540,2,脚踏车,pedal cycle,V31,0.9088686108589172
-1540,1,两轮或三轮机动车,two- or three-wheeled motor vehicle,V32,0.9444034099578857
-1540,0,小汽车、轻型货车或篷车.,"car, pick-up truck or van",V33,0.9773514866828918
-1540,1,行人,pedestrian,V30,0.9254661798477173
-1540,1,畜挽车,animal-drawn vehicle,V36,0.9655155539512634
-1540,1,特指的 NEC,specified NEC,V39.8,0.9739320874214172
-1540,1,无碰撞,noncollision,V38,0.9517373442649841
+1540,3,脚踏车,pedal cycle,V31,0.9088686108589172
+1540,3,两轮或三轮机动车,two- or three-wheeled motor vehicle,V32,0.9444034099578857
+1540,3,小汽车、轻型货车或篷车.,"car, pick-up truck or van",V33,0.9773514866828918
+1540,3,行人,pedestrian,V30,0.9254661798477173
+1540,3,畜挽车,animal-drawn vehicle,V36,0.9655155539512634
+1540,2,特指的 NEC,specified NEC,V39.8,0.9739320874214172
+1540,2,无碰撞,noncollision,V38,0.9517373442649841
 1540,2,乘员,occupant (of),,0.8940879702568054
-1540,2,三轮(机动)车,three-wheeled vehicle (motorized),V39.9,0.9245691299438477
-1540,2,非机动化-见意外事故，运输，骑脚踏车人员,"nonmotorized - see Accident, transport, pedal cyclist",,0.9625911712646484
-1540,1,三轮车-见意外事故，运输，骑脚踏车人员,"tricycle - see Accident, transport, pedal cyclist",,0.951481282711029
-1540,2,机动化-见意外事故，运输，三轮机动车,"motorized — see Accident, transport, three-wheeled motor vehicle",,0.9575218558311462
-1540,2,冰上快艇[冰上滑艇],ice-yacht,V98,0.9604263305664062
-1540,2,铲车(另见意外事故，运输，工业车辆),"forklift (see also Accident, transport, industrial vehicle)",V83.9,0.9813933372497559
-1540,1,超轻型滑翔机,ultralight,V95.1,0.9870540499687195
-1540,1,车辆 NEC,vehicle NEC,V89.9,0.9444748163223267
-1540,2,机动(交通性) NEC,motor (traffic) NEC,V89.2,0.9512518048286438
-1540,2,非交通性 NEC,nontrafficNEC,V89.0,0.95292729139328
-1540,1,重型运输,heavy transport,V69.9,0.9631220102310181
-1540,1,船，船舶 NEC,"ship, watercraft NEC",V94,0.9605382680892944
-1540,1,大轿车,coach,V79.9,0.934852123260498
-1540,1,电车(市内有轨)(城市间的)(行驶在大街或公路),streetcar (interurban)(operating on public street or highway),V82.9,0.9625999331474304
-1540,1,被各种铁路车辆碰撞,hit by rolling stock,V82.2,0.9725903868675232
-1540,2,碰撞(与),collision (with),,0.8723396062850952
-1540,1,被驱赶的动物或畜挽车,animal being ridden or animal-drawn vehicle,V82.8,0.9686660766601562
-1540,2,各种铁路车辆,rolling stock,V82.2,0.9911001324653625
-1540,2,机动车,motor vehicle,,0.9700272679328918
-1540,3,非交通性,nontraffic,V82.0,0.9590830206871033
-1540,2,交通性,traffic,V82.1,0.953594446182251
-1540,1,物体NEC,object NEC,V82.3,0.9710665345191956
-1540,1,行驶在自己的车道上，不对外开放,"operating on own right-of- way, not open to other traffic",V81,0.9559572339057922
-1540,2,伐木挂车(另见意外事故，运输，工业车辆),"logging car (see also Accident, transport, industrial vehicle)",V83.9,0.9860448241233826
-1542,0,飞行器(动力的),aircraft (powered),V95.9,0.979059100151062
-1542,1,非动力的,nonpowered,V96.9,0.9428760409355164
-1542,1,固定机翼(商用的),fixed wing (commercial),V95.3,0.9717210531234741
-1542,2,私人的,private,V95.2,0.9478181600570679
-1542,1,特指的NEC,specified NEC,V95.8,0.9463823437690735
-1542,0,风筝式飞机(载人的),kite (carrying person),V96.8,0.973382294178009
-1542,0,公共汽车,bus,V79.9,0.945950984954834
-1542,0,航天飞行器，宇宙飞船,"spacecraft, spaceship",V95.4,0.982664942741394
-1542,0,滑翔机(无动力的),glider (unpowered),V96.2,0.948393702507019
-1542,1,动力的(轻型)(超轻型),powered (microlight) (ultralight),V95.1,0.9672639966011047
-1542,1,悬吊,hang,V96.1,0.9283010363578796
-1542,0,滑雪缆车(椅)(吊篮),ski-lift (chair)(gondola),V98,0.980270266532898
-1542,0,火车,train,V81.9,0.9293290972709656
-1542,0,机动小型摩托车-见意外事故，运输，骑摩托车人员,"motor scooter – see Accident, transport, motorcycle rider",,0.9758146405220032
-1542,0,机械铲车(另见意外事故，运输，建筑车辆),"mechanical shovel (see also Accident, transport, construction vehicle)",V85.9,0.984883189201355
-1542,0,将滑雪者送往山顶的缆车设备,tique,V98,0.9587429165840149
-1542,0,脚踏车-见意外事故，运输，骑脚踏车人员,"pedal cycle – see Accident, transport, pedal cyclist",,0.9523210525512695
-1542,0,矿车、矿山或采石场(另见意外事故，运输，工业车辆),"coal-car, tub, in mine or quarry (see also Accident, transport, industrial vehicle)",V83.9,0.9798130393028259
-1542,0,缆车(在轨道上),cable car (on rails),V82.9,0.9708387851715088
-1542,1,不在轨道上,not on rails,V98,0.9516128897666931
-1542,0,陆上快艇[沙艇],land-yacht,V98,0.957431972026825
-1542,0,摩托车(带跨斗车)-见意外事故，运输，骑摩托车人员,"motorcycle (with sidecar) - see Accident, transport, motorcycle rider",,0.9679615497589111
-1542,0,摩托雪橇(另见意外事故，运输，全地带或越野车辆),"snowmobile (see also Accident, transport, all-terrain or off-road vehicle)",V86.9,0.9774537682533264
-1542,0,摩托自行车-见意外事故，运输，骑摩托车人员,"moped – see Accident, transport, motorcycle rider",,0.9620814919471741
-1542,0,农场机器(自动推进的)(另见意外事故，运输，农业车辆),"farm machinery (self-propelled) (see also Accident, transport, agricultural vehicle)",V84.9,0.9723556637763977
-1542,0,篷车(另见意外事故，运输，轻型货车或篷车乘员),"van (see also Accident, transport, pick-up truck or van occupant)",V59.9,0.9754176735877991
-1542,0,平地机(另见意外事故，运输，建筑车辆),"earth-leveler (see also Accident, transport, construction vehicle)",V85.9,0.9758484363555908
-1542,0,气垫船(开阔水域)NEC,hovercraft (open water) NEC,V94.3,0.9814875721931458
-1542,0,气球,balloon,V96.0,0.9773101806640625
-1542,0,汽车,automobile,V49.9,0.9366651773452759
-1542,0,轻型(货车),pick-up (truck),V59.9,0.9771478176116943
-1542,0,轻型滑翔机,microlight,V95.1,0.9895042777061462
-1543,0,全地带车辆(另见意外事故，运输，全地带或越野车辆),"all-terrain vehicle (ATV) (see also Accident, transport, all-terrain or off-road vehicle)",V86.9,0.9825250506401062
-1543,1,人力车一另见意外事故，运输，骑脚踏车人员,"rickshaw – see also Accident, transport, pedal cyclist",V09.9,0.9547387361526489
-1543,1,机动化-见意外事故，运输，三轮机动车,"motorized – see Accident, transport, three-wheeled motor vehicle",,0.9292917847633362
-1543,1,脚踏驱动,pedal driven,V19.9,0.9285395741462708
-1543,1,收割机(另见意外事故，运输，农业车辆),"harvester (see also Accident, transport, agricultural vehicle)",V84.9,0.9694747924804688
-1543,0,铁路(火车)(车辆)(单轨)(双轨)(高架的)(地下的),railway (train) (vehicle) (monorail) (two rail) (elevated) (subterranean),V81.9,0.9623624086380005
-1543,1,碰撞(与),collision (with),,0.9346118569374084
-1543,2,各种铁路车辆,rolling stock,V81.2,0.9165335893630981
-1543,2,机动车,motor vehicle,,0.9835991263389587
-1543,3,非交通性,nontraffic,V81.0,0.9245364665985107
-1543,3,交通性,traffic,V81.1,0.9013446569442749
-1543,1,物体 NEC,object NEC,V81.3,0.9583151936531067
-1543,1,推土机(另见意外事故，运输，建筑车辆),"bulldozer (see also Accident, transport, construction vehicle)",V85.9,0.9671603441238403
-1543,2,拖拉机(农场)(和拖车)(另见意外事故，运输，农业车辆),"tractor (farm) (and trailer) (see also Accident, transport, agricultural vehicle)",V84.9,0.9778327345848083
-1543,1,无轨电车,trolley,V82.9,0.9668567180633545
-1543,1,小船 NECV94,boat NEC,V94,0.9421288371086121
-1543,2,小公共汽车,minibus,V49.9,0.9486989974975586
-1543,2,小汽车,car,V49.9,0.941264808177948
-1543,1,缆车(在轨道上),cable car (on rails),V82.9,0.9629194140434265
-1543,2,不在轨道上,not on rails,V98,0.9402998089790344
-1543,0,畜挽车,animal-drawn vehicle,V80.9,0.9267978668212891
-1543,1,蓄电池动力的车辆(飞机场车辆乘客)(卡车),battery-powered vehicle (airport passenger vehicle) (truck),V83.9,0.9610313773155212
-1543,1,悬吊-滑翔机,hang-glider,V96.1,0.956913948059082
-1543,1,压路机(另见意外事故，运输，建筑车辆),"road-roller (see also Accident, transport, construction vehicle)",V85.9,0.9694933891296387
-1543,2,有轨电车,tram,V82.9,0.9127085208892822
-1543,1,直升机,helicopter,V95.0,0.9212033748626709
-1543,1,重型(运输)车辆,heavy (transport) vehicle,V69.9,0.9413585066795349
-1543,1,自行车-见意外事故，运输，骑脚踏车人员,"bicycle – see Accident, transport, pedal cyclist",,0.9283134341239929
-1543,1,机动化-见意外事故，运输，骑摩托车人员,"motorized —see Accident, transport, motorcycle rider",,0.9405215382575989
-1544,0,飞行器,aircraft,,0.9117779731750488
-1544,1,人员(被伤害),person (injured by),,0.8957990407943726
-1544,2,被从飞行器上坠落物体击中,struck by object falling from aircraft,V97.3,0.9568500518798828
-1544,2,被吸入喷气口,sucked into jet,V97.3,0.9240856766700745
-1544,2,地面,on ground,V97.3,0.9197575449943542
-1544,3,自飞行器跌倒、跌落或跌出,"falling from, in or on aircraft",V97.0,0.9861874580383301
+1540,3,三轮(机动)车,three-wheeled vehicle (motorized),V39.9,0.9245691299438477
+1540,4,非机动化-见意外事故，运输，骑脚踏车人员,"nonmotorized - see Accident, transport, pedal cyclist",,0.9625911712646484
+1540,3,三轮车-见意外事故，运输，骑脚踏车人员,"tricycle - see Accident, transport, pedal cyclist",,0.951481282711029
+1540,4,机动化-见意外事故，运输，三轮机动车,"motorized — see Accident, transport, three-wheeled motor vehicle",,0.9575218558311462
+1540,3,冰上快艇[冰上滑艇],ice-yacht,V98,0.9604263305664062
+1540,3,铲车(另见意外事故，运输，工业车辆),"forklift (see also Accident, transport, industrial vehicle)",V83.9,0.9813933372497559
+1540,3,超轻型滑翔机,ultralight,V95.1,0.9870540499687195
+1540,3,车辆 NEC,vehicle NEC,V89.9,0.9444748163223267
+1540,4,机动(交通性) NEC,motor (traffic) NEC,V89.2,0.9512518048286438
+1540,4,非交通性 NEC,nontraffic NEC,V89.0,0.95292729139328
+1540,3,重型运输,heavy transport,V69.9,0.9631220102310181
+1540,3,船，船舶 NEC,"ship, watercraft NEC",V94,0.9605382680892944
+1540,3,大轿车,coach,V79.9,0.934852123260498
+1540,3,电车(市内有轨)(城市间的)(行驶在大街或公路),streetcar (interurban)(operating on public street or highway),V82.9,0.9625999331474304
+1540,4,被各种铁路车辆碰撞,hit by rolling stock,V82.2,0.9725903868675232
+1540,4,碰撞(与),collision (with),,0.8723396062850952
+1540,5,被驱赶的动物或畜挽车,animal being ridden or animal-drawn vehicle,V82.8,0.9686660766601562
+1540,5,各种铁路车辆,rolling stock,V82.2,0.9911001324653625
+1540,5,机动车,motor vehicle,,0.9700272679328918
+1540,6,非交通性,nontraffic,V82.0,0.9590830206871033
+1540,6,交通性,traffic,V82.1,0.953594446182251
+1540,5,物体NEC,object NEC,V82.3,0.9710665345191956
+1540,4,行驶在自己的车道上，不对外开放,"operating on own right-of- way, not open to other traffic",V81,0.9559572339057922
+1540,3,伐木挂车(另见意外事故，运输，工业车辆),"logging car (see also Accident, transport, industrial vehicle)",V83.9,0.9860448241233826
+1542,3,飞行器(动力的),aircraft (powered),V95.9,0.979059100151062
+1542,4,非动力的,nonpowered,V96.9,0.9428760409355164
+1542,4,固定机翼(商用的),fixed wing (commercial),V95.3,0.9717210531234741
+1542,5,私人的,private,V95.2,0.9478181600570679
+1542,4,特指的NEC,specified NEC,V95.8,0.9463823437690735
+1542,3,风筝式飞机(载人的),kite (carrying person),V96.8,0.973382294178009
+1542,3,公共汽车,bus,V79.9,0.945950984954834
+1542,3,航天飞行器，宇宙飞船,"spacecraft, spaceship",V95.4,0.982664942741394
+1542,3,滑翔机(无动力的),glider (unpowered),V96.2,0.948393702507019
+1542,4,动力的(轻型)(超轻型),powered (microlight) (ultralight),V95.1,0.9672639966011047
+1542,4,悬吊,hang,V96.1,0.9283010363578796
+1542,3,滑雪缆车(椅)(吊篮),ski-lift (chair)(gondola),V98,0.980270266532898
+1542,3,火车,train,V81.9,0.9293290972709656
+1542,3,机动小型摩托车-见意外事故，运输，骑摩托车人员,"motor scooter – see Accident, transport, motorcycle rider",,0.9758146405220032
+1542,3,机械铲车(另见意外事故，运输，建筑车辆),"mechanical shovel (see also Accident, transport, construction vehicle)",V85.9,0.984883189201355
+1542,3,将滑雪者送往山顶的缆车设备,funicular,V98,0.9587429165840149
+1542,3,脚踏车-见意外事故，运输，骑脚踏车人员,"pedal cycle – see Accident, transport, pedal cyclist",,0.9523210525512695
+1542,3,矿车、矿山或采石场(另见意外事故，运输，工业车辆),"coal-car, tub, in mine or quarry (see also Accident, transport, industrial vehicle)",V83.9,0.9798130393028259
+1542,3,缆车(在轨道上),cable car (on rails),V82.9,0.9708387851715088
+1542,4,不在轨道上,not on rails,V98,0.9516128897666931
+1542,3,陆上快艇[沙艇],land-yacht,V98,0.957431972026825
+1542,3,摩托车(带跨斗车)-见意外事故，运输，骑摩托车人员,"motorcycle (with sidecar) - see Accident, transport, motorcycle rider",,0.9679615497589111
+1542,3,摩托雪橇(另见意外事故，运输，全地带或越野车辆),"snowmobile (see also Accident, transport, all-terrain or off-road vehicle)",V86.9,0.9774537682533264
+1542,3,摩托自行车-见意外事故，运输，骑摩托车人员,"moped – see Accident, transport, motorcycle rider",,0.9620814919471741
+1542,3,农场机器(自动推进的)(另见意外事故，运输，农业车辆),"farm machinery (self-propelled) (see also Accident, transport, agricultural vehicle)",V84.9,0.9723556637763977
+1542,3,篷车(另见意外事故，运输，轻型货车或篷车乘员),"van (see also Accident, transport, pick-up truck or van occupant)",V59.9,0.9754176735877991
+1542,3,平地机(另见意外事故，运输，建筑车辆),"earth-leveler (see also Accident, transport, construction vehicle)",V85.9,0.9758484363555908
+1542,3,气垫船(开阔水域)NEC,hovercraft (open water) NEC,V94.3,0.9814875721931458
+1542,3,气球,balloon,V96.0,0.9773101806640625
+1542,3,汽车,automobile,V49.9,0.9366651773452759
+1542,3,轻型(货车),pick-up (truck),V59.9,0.9771478176116943
+1542,3,轻型滑翔机,microlight,V95.1,0.9895042777061462
+1543,3,全地带车辆(另见意外事故，运输，全地带或越野车辆),"all-terrain vehicle (ATV) (see also Accident, transport, all-terrain or off-road vehicle)",V86.9,0.9825250506401062
+1543,3,人力车一另见意外事故，运输，骑脚踏车人员,"rickshaw – see also Accident, transport, pedal cyclist",V09.9,0.9547387361526489
+1543,4,机动化-见意外事故，运输，三轮机动车,"motorized – see Accident, transport, three-wheeled motor vehicle",,0.9292917847633362
+1543,4,脚踏驱动,pedal driven,V19.9,0.9285395741462708
+1543,3,收割机(另见意外事故，运输，农业车辆),"harvester (see also Accident, transport, agricultural vehicle)",V84.9,0.9694747924804688
+1543,3,铁路(火车)(车辆)(单轨)(双轨)(高架的)(地下的),railway (train) (vehicle) (monorail) (two rail) (elevated) (subterranean),V81.9,0.9623624086380005
+1543,4,碰撞(与),collision (with),,0.9346118569374084
+1543,5,各种铁路车辆,rolling stock,V81.2,0.9165335893630981
+1543,5,机动车,motor vehicle,,0.9835991263389587
+1543,6,非交通性,nontraffic,V81.0,0.9245364665985107
+1543,6,交通性,traffic,V81.1,0.9013446569442749
+1543,5,物体 NEC,object NEC,V81.3,0.9583151936531067
+1543,3,推土机(另见意外事故，运输，建筑车辆),"bulldozer (see also Accident, transport, construction vehicle)",V85.9,0.9671603441238403
+1543,3,拖拉机(农场)(和拖车)(另见意外事故，运输，农业车辆),"tractor (farm) (and trailer) (see also Accident, transport, agricultural vehicle)",V84.9,0.9778327345848083
+1543,3,无轨电车,trolley,V82.9,0.9668567180633545
+1543,3,小船 NEC,boat NEC,V94,0.9421288371086121
+1543,3,小公共汽车,minibus,V49.9,0.9486989974975586
+1543,3,小汽车,car,V49.9,0.941264808177948
+1543,3,缆车(在轨道上),cable car (on rails),V82.9,0.9629194140434265
+1543,4,不在轨道上,not on rails,V98,0.9402998089790344
+1543,3,畜挽车,animal-drawn vehicle,V80.9,0.9267978668212891
+1543,3,蓄电池动力的车辆(飞机场车辆乘客)(卡车),battery-powered vehicle (airport passenger vehicle) (truck),V83.9,0.9610313773155212
+1543,3,悬吊-滑翔机,hang-glider,V96.1,0.956913948059082
+1543,3,压路机(另见意外事故，运输，建筑车辆),"road-roller (see also Accident, transport, construction vehicle)",V85.9,0.9694933891296387
+1543,3,有轨电车,tram,V82.9,0.9127085208892822
+1543,3,直升机,helicopter,V95.0,0.9212033748626709
+1543,3,重型(运输)车辆,heavy (transport) vehicle,V69.9,0.9413585066795349
+1543,3,自行车-见意外事故，运输，骑脚踏车人员,"bicycle – see Accident, transport, pedal cyclist",,0.9283134341239929
+1543,4,机动化-见意外事故，运输，骑摩托车人员,"motorized —see Accident, transport, motorcycle rider",,0.9405215382575989
+1544,2,飞行器,aircraft,,0.9117779731750488
+1544,3,人员(被伤害),person (injured by),,0.8957990407943726
+1544,4,被从飞行器上坠落物体击中,struck by object falling from aircraft,V97.3,0.9568500518798828
+1544,4,被吸入喷气口,sucked into jet,V97.3,0.9240856766700745
+1544,4,地面,on ground,V97.3,0.9197575449943542
+1544,4,自飞行器跌倒、跌落或跌出,"falling from, in or on aircraft",V97.0,0.9861874580383301
 1544,4,飞行器上的机器,machinery on aircraft,V97.8,0.9642623662948608
-1544,3,旋转推进器,rotating propeller,V97.3,0.9627381563186646
-1544,1,在上或下(飞行器)时,while boarding or alighting,V97.1,0.9843923449516296
-1544,0,工业车辆(非交通性):9,industrial vehicle (nontraffic),V83.9,0.9531005620956421
-1544,1,乘客,passenger,V83.6,0.9517773389816284
-1544,2,交通性,traffic,V83.3,0.9244325757026672
-1544,1,乘客,passenger,V83.1,0.8963983654975891
-1544,2,司机,driver,V83.0,0.936169445514679
-1544,1,在(车)外面的人员,person on outside,V83.2,0.9515690207481384
-1544,1,司机,driver,V83.5,0.9769708514213562
-1544,1,在(车)外面的人员,person on outside,V83.7,0.9352532625198364
-1544,1,在上或下(车)时,while boarding or alighting,V83.4,0.9577953815460205
-1544,0,公共汽车(中)乘员,bus occupant (in),V79.9,0.9441060423851013
-1544,1,翻车,overturning,V78,0.9209352731704712
-1544,1,非交通性,nontraffic,V79.3,0.9517156481742859
-1544,1,碰撞(机动车)(与),collision (motor vehicle) (with),V79.6,0.9866827726364136
-1544,1,(市内有轨)电车,streetcar,V76,0.926166296005249
-1544,2,动物,animal,V70,0.9245105981826782
-1544,2,被驱赶,being ridden,V76,0.9229295253753662
-1544,2,非机动车,nonmotor vehicle,V76,0.982523500919342
-1544,3,非交通性,nontraffic,V79.2,0.9510900378227234
-1544,3,乘客,passenger,V79.1,0.9362936615943909
-1544,3,司机,driver,V79.0,0.9131544828414917
-1544,2,公共汽车或重型运输车.,bus or heavy transport vehicle,V74,0.9742183089256287
-1544,2,固定或静止的物体,fixed or stationary object,V77,0.9497429132461548
-1544,3,火车或铁路车辆,railway train or vehicle,V75,0.9416064023971558
-1544,3,交通性,traffic,V79.6,0.9191395044326782
-1544,3,乘客,passenger,V79.5,0.9317153692245483
-1544,3,司机,driver,V79.4,0.9494539499282837
-1544,3,脚踏车,pedal cycle,V71,0.9821864366531372
-1544,3,两轮或三轮机动车,two- or three-wheeled motor vehicle,V72,0.9552233219146729
-1544,3,小汽车、轻型货车或篷车,"car, pick-up truck or van",V73,0.948028564453125
-1544,3,行人,pedestrian,V70,0.9248536229133606
-1544,2,畜挽车,animal-drawn vehicle,V76,0.9404434561729431
-1544,1,特指的NEC,specified NEC,V79.8,0.9727781414985657
-1544,1,无碰撞,noncollision,V78,0.9468004107475281
-1545,0,建筑车辆(非交通性),construction vehicle (nontraffic),V85.9,0.994580864906311
-1545,1,乘客,passenger,V85.6,0.9130277037620544
-1545,1,交通性,traffic,V85.3,0.9797715544700623
-1545,2,乘客,passenger,V85.1,0.9118455052375793
-1545,2,司机,driver,V85.0,0.8869702816009521
-1545,2,在(车)外面的人员,person on outside,V85.2,0.9554579854011536
-1545,1,司机,driver,V85.5,0.9629898071289062
-1545,1,在(车)外面的人员,person on outside,V85.7,0.954418420791626
-1545,1,在上或下(车)时,while boarding or alighting,V85.4,0.913878321647644
-1545,0,农业车辆(非交通性),agricultural vehicle (nontraffic),V84.9,0.9902103543281555
-1545,1,乘客,passenger,V84.6,0.9175757765769958
-1545,1,交通性,traffic,V84.3,0.913591206073761
-1545,2,乘客,passenger,V84.1,0.9328688979148865
-1545,2,司机  n,driver,V84.0,0.8508293628692627
-1545,2,在(车)外面的人员,person on outside,V84.2,0.9589038491249084
-1545,1,司机,driver,V84.5,0.9751737117767334
-1545,1,在(车)外面的人员,person on outside,V84.7,0.9164995551109314
-1545,1,在上或下(车)时,while boarding or alighting,V84.4,0.9076878428459167
-1545,0,骑脚踏车人员(在...中),pedal cyclist (in),V19.9,0.9668334722518921
-1545,1,非交通性,nontraffic,V19.3,0.9664256572723389
-1545,1,碰撞(机动车)(与),collision (motor vehicle)(with),V19.6,0.9570521712303162
-1545,2,电车(市内有轨),streetcar,V16,0.9553530216217041
-1545,2,动物,animal,V10,0.9416300654411316
-1545,3,被驱赶,being ridden,V16,0.9446132779121399
-1545,2,非机动车NEC,nonmotor vehicle NEC,V16,0.9388961791992188
-1545,2,非交通性,nontraffic,V19.2,0.9829244017601013
-1545,2,乘客,passenger,V19.1,0.9402626156806946
-1545,3,司机,driver,V19.0,0.9141201376914978
-1545,2,公共汽车或重型运输车,—bus or heavy transport vehicle,V14,0.9538145661354065
-1545,2,固定或静止的物体,fixed or stationary object,V17,0.9763699173927307
-1545,1,火车或铁路车辆,railway train or vehicle,V15,0.9907428622245789
-1545,2,交通性,traffic,V19.6,0.9155917763710022
-1545,2,乘客,passenger,V19.5,0.9609097242355347
-1545,3,司机,driver,V19.4,0.9451316595077515
-1545,2,脚踏车,pedal cycle,V11,0.9521770477294922
-1545,2,两轮或三轮机动车,two- or three-wheeled motor vehicle,V12,0.9774223566055298
-1545,1,小汽车、轻型货车或篷车,"car, pick-up truck or van",V13,0.9872802495956421
-1545,2,行人,pedestrian,V10,0.9412550926208496
-1545,2,畜挽车,animal-drawn vehicle,V16,0.9594400525093079
-1545,1,特指的NEC,specified NEC,V19.8,0.8617105484008789
-1545,1,无碰撞,noncollision,V18,0.9747331738471985
-1546,0,骑摩托车人员,motorcycle rider,V29.9,0.9583994150161743
-1546,1,翻车,overturning,V28,0.9573373794555664
-1546,1,非交通性,nontraffic,V29.3,0.9732894897460938
-1546,1,碰撞(机动车)(与),collision (motor vehicle) (with),V29.6,0.982442319393158
-1546,2,电车(市内有轨),streetcar,V26,0.9474655985832214
-1546,2,动物,animal - 8,V20,0.9238837361335754
-1546,3,被驱赶,being ridden,V26,0.9707790017127991
-1546,2,非机动车,nonmotor vehicle,V26,0.989447295665741
-1546,2,非交通性,nontraffic,V29.2,0.9785420894622803
-1546,2,乘客,passenger,V29.1,0.982422411441803
-1546,2,司机,driver,V29.0,0.9325979351997375
-1546,2,公共汽车或重型运输车,bus or heavy transport vehicle,V24,0.9716266393661499
-1546,2,固定或静止的物体,fixed or stationary object,V27,0.9618749022483826
-1546,2,火车或铁路车辆.-b,railway train or vehicle,V25,0.9428123235702515
-1546,2,交通性,traffic,V29.6,0.8451859951019287
-1546,3,乘客,passenger,V29.5,0.960031270980835
-1546,2,两轮或三轮机动车,two- or three-wheeled motor vehicle,V22,0.9540393948554993
-1546,2,小汽车、轻型货车或篷车,"car, pick-up truck or van",V23,0.9914995431900024
-1546,2,行人,pedestrian,V20,0.8881998062133789
-1546,2,畜挽车,animal-drawn vehicle,V26,0.9739850163459778
-1546,1,特指的NEC,specified NEC,V29.8,0.9704149961471558
-1546,1,无碰撞.-dWnbb,noncollision,V28,0.7790555953979492
-1546,0,轻型货车或篷车乘员,pick-up truck or van occupant,V59.9,0.9943087697029114
-1546,1,翻车,overturning,V58,0.9588424563407898
-1546,1,非交通性,nontraffic,V59.3,0.9549264311790466
-1546,1,碰撞(机动车)(与),collision (motor vehicle) (with),V59.6,0.9718332290649414
-1546,2,(市内有轨)电车,streetcar,V56,0.9723856449127197
-1546,2,动物,animal,V50,0.9367309808731079
-1546,3,被驱赶,being ridden,V56,0.9397021532058716
-1546,2,非机动车,nonmotor vehicle,V56,0.9908425807952881
-1546,1,非交通性,nontraffic,V59.2,0.9637786746025085
-1546,2,乘客,passenger,V59.1,0.857142448425293
-1546,2,司机,driver,V59.0,0.9074617028236389
-1546,2,公共汽车或重型运输车,bus or heavy transport vehicle,V54,0.9872738718986511
-1546,2,固定或静止的物体,fixed or stationary object,V57,0.9663001894950867
-1546,2,火车或铁路车辆,railway train or vehicle,V55,0.9762368202209473
-1546,2,交通性,traffic,V59.6,0.9418150782585144
-1546,3,乘客,passenger,V59.5,0.9652137756347656
-1546,3,司机,driver,V59.4,0.9670034050941467
-1546,2,脚踏车,pedal cycle,V51,0.9660518169403076
-1547,1,两轮或三轮机动车,two- or three-wheeled motor vehicle,V52,0.9662407636642456
-1547,1,小汽车、轻型货车或篷车,"car, pick-up truck or van",V53,0.9761108160018921
-1547,2,行人,pedestrian,V50,0.9199510216712952
-1547,1,畜挽车,animal-drawn vehicle,V56,0.9584107398986816
-1547,1,特指的 NEC,specified NEC,V59.8,0.968666136264801
-1547,1,无碰撞,noncollision,V58,0.9446063041687012
-1547,0,全地带或越野车辆(非交通性),all-terrain or off-road vehicle (nontraffic),V86.9,0.9838513135910034
-1547,1,乘客,passenger,V86.6,0.9386292099952698
-1547,1,交通性,traffic,V86.3,0.9026862978935242
-1547,2,乘客,passenger,V86.1,0.9134436845779419
+1544,4,旋转推进器,rotating propeller,V97.3,0.9627381563186646
+1544,4,在上或下(飞行器)时,while boarding or alighting,V97.1,0.9843923449516296
+1544,2,工业车辆(非交通性):9,industrial vehicle (nontraffic),V83.9,0.9531005620956421
+1544,3,乘客,passenger,V83.6,0.9517773389816284
+1544,3,交通性,traffic,V83.3,0.9244325757026672
+1544,4,乘客,passenger,V83.1,0.8963983654975891
+1544,3,司机,driver,V83.0,0.936169445514679
+1544,3,在(车)外面的人员,person on outside,V83.2,0.9515690207481384
+1544,3,司机,driver,V83.5,0.9769708514213562
+1544,3,在(车)外面的人员,person on outside,V83.7,0.9352532625198364
+1544,3,在上或下(车)时,while boarding or alighting,V83.4,0.9577953815460205
+1544,2,公共汽车(中)乘员,bus occupant (in),V79.9,0.9441060423851013
+1544,3,翻车,overturning,V78,0.9209352731704712
+1544,3,非交通性,nontraffic,V79.3,0.9517156481742859
+1544,3,碰撞(机动车)(与),collision (motor vehicle) (with),V79.6,0.9866827726364136
+1544,4,(市内有轨)电车,streetcar,V76,0.926166296005249
+1544,4,动物,animal,V70,0.9245105981826782
+1544,4,被驱赶,being ridden,V76,0.9229295253753662
+1544,4,非机动车,nonmotor vehicle,V76,0.982523500919342
+1544,4,非交通性,nontraffic,V79.2,0.9510900378227234
+1544,5,乘客,passenger,V79.1,0.9362936615943909
+1544,4,司机,driver,V79.0,0.9131544828414917
+1544,4,公共汽车或重型运输车.,bus or heavy transport vehicle,V74,0.9742183089256287
+1544,4,固定或静止的物体,fixed or stationary object,V77,0.9497429132461548
+1544,4,火车或铁路车辆,railway train or vehicle,V75,0.9416064023971558
+1544,4,交通性,traffic,V79.6,0.9191395044326782
+1544,5,乘客,passenger,V79.5,0.9317153692245483
+1544,4,司机,driver,V79.4,0.9494539499282837
+1544,4,脚踏车,pedal cycle,V71,0.9821864366531372
+1544,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V72,0.9552233219146729
+1544,4,小汽车、轻型货车或篷车,"car, pick-up truck or van",V73,0.948028564453125
+1544,4,行人,pedestrian,V70,0.9248536229133606
+1544,4,畜挽车,animal-drawn vehicle,V76,0.9404434561729431
+1544,4,特指的NEC,specified NEC,V79.8,0.9727781414985657
+1544,4,无碰撞,noncollision,V78,0.9468004107475281
+1545,2,建筑车辆(非交通性),construction vehicle (nontraffic),V85.9,0.994580864906311
+1545,3,乘客,passenger,V85.6,0.9130277037620544
+1545,3,交通性,traffic,V85.3,0.9797715544700623
+1545,4,乘客,passenger,V85.1,0.9118455052375793
+1545,3,司机,driver,V85.0,0.8869702816009521
+1545,3,在(车)外面的人员,person on outside,V85.2,0.9554579854011536
+1545,3,司机,driver,V85.5,0.9629898071289062
+1545,3,在(车)外面的人员,person on outside,V85.7,0.954418420791626
+1545,3,在上或下(车)时,while boarding or alighting,V85.4,0.913878321647644
+1545,2,农业车辆(非交通性),agricultural vehicle (nontraffic),V84.9,0.9902103543281555
+1545,3,乘客,passenger,V84.6,0.9175757765769958
+1545,3,交通性,traffic,V84.3,0.913591206073761
+1545,4,乘客,passenger,V84.1,0.9328688979148865
+1545,3,司机,driver,V84.0,0.8508293628692627
+1545,3,在(车)外面的人员,person on outside,V84.2,0.9589038491249084
+1545,3,司机,driver,V84.5,0.9751737117767334
+1545,3,在(车)外面的人员,person on outside,V84.7,0.9164995551109314
+1545,3,在上或下(车)时,while boarding or alighting,V84.4,0.9076878428459167
+1545,2,骑脚踏车人员(在...中),pedal cyclist (in),V19.9,0.9668334722518921
+1545,3,非交通性,nontraffic,V19.3,0.9664256572723389
+1545,3,碰撞(机动车)(与),collision (motor vehicle)(with),V19.6,0.9570521712303162
+1545,4,电车(市内有轨),streetcar,V16,0.9553530216217041
+1545,4,动物,animal,V10,0.9416300654411316
+1545,4,被驱赶,being ridden,V16,0.9446132779121399
+1545,4,非机动车NEC,nonmotor vehicle NEC,V16,0.9388961791992188
+1545,4,非交通性,nontraffic,V19.2,0.9829244017601013
+1545,5,乘客,passenger,V19.1,0.9402626156806946
+1545,4,司机,driver,V19.0,0.9141201376914978
+1545,4,公共汽车或重型运输车,bus or heavy transport vehicle,V14,0.9538145661354065
+1545,4,固定或静止的物体,fixed or stationary object,V17,0.9763699173927307
+1545,4,火车或铁路车辆,railway train or vehicle,V15,0.9907428622245789
+1545,4,交通性,traffic,V19.6,0.9155917763710022
+1545,5,乘客,passenger,V19.5,0.9609097242355347
+1545,4,司机,driver,V19.4,0.9451316595077515
+1545,4,脚踏车,pedal cycle,V11,0.9521770477294922
+1545,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V12,0.9774223566055298
+1545,4,小汽车、轻型货车或篷车,"car, pick-up truck or van",V13,0.9872802495956421
+1545,4,行人,pedestrian,V10,0.9412550926208496
+1545,4,畜挽车,animal-drawn vehicle,V16,0.9594400525093079
+1545,4,特指的NEC,specified NEC,V19.8,0.8617105484008789
+1545,4,无碰撞,noncollision,V18,0.9747331738471985
+1546,2,骑摩托车人员,motorcycle rider,V29.9,0.9583994150161743
+1546,3,翻车,overturning,V28,0.9573373794555664
+1546,3,非交通性,nontraffic,V29.3,0.9732894897460938
+1546,3,碰撞(机动车)(与),collision (motor vehicle) (with),V29.6,0.982442319393158
+1546,4,电车(市内有轨),streetcar,V26,0.9474655985832214
+1546,4,动物,animal,V20,0.9238837361335754
+1546,4,被驱赶,being ridden,V26,0.9707790017127991
+1546,4,非机动车,nonmotor vehicle,V26,0.989447295665741
+1546,4,非交通性,nontraffic,V29.2,0.9785420894622803
+1546,5,乘客,passenger,V29.1,0.982422411441803
+1546,4,司机,driver,V29.0,0.9325979351997375
+1546,4,公共汽车或重型运输车,bus or heavy transport vehicle,V24,0.9716266393661499
+1546,4,固定或静止的物体,fixed or stationary object,V27,0.9618749022483826
+1546,4,火车或铁路车辆,railway train or vehicle,V25,0.9428123235702515
+1546,4,交通性,traffic,V29.6,0.8451859951019287
+1546,5,乘客,passenger,V29.5,0.960031270980835
+1546,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V22,0.9540393948554993
+1546,4,小汽车、轻型货车或篷车,"car, pick-up truck or van",V23,0.9914995431900024
+1546,4,行人,pedestrian,V20,0.8881998062133789
+1546,4,畜挽车,animal-drawn vehicle,V26,0.9739850163459778
+1546,4,特指的NEC,specified NEC,V29.8,0.9704149961471558
+1546,4,无碰撞,noncollision,V28,0.7790555953979492
+1546,2,轻型货车或篷车乘员,pick-up truck or van occupant,V59.9,0.9943087697029114
+1546,3,翻车,overturning,V58,0.9588424563407898
+1546,3,非交通性,nontraffic,V59.3,0.9549264311790466
+1546,3,碰撞(机动车)(与),collision (motor vehicle) (with),V59.6,0.9718332290649414
+1546,4,(市内有轨)电车,streetcar,V56,0.9723856449127197
+1546,4,动物,animal,V50,0.9367309808731079
+1546,4,被驱赶,being ridden,V56,0.9397021532058716
+1546,4,非机动车,nonmotor vehicle,V56,0.9908425807952881
+1546,4,非交通性,nontraffic,V59.2,0.9637786746025085
+1546,5,乘客,passenger,V59.1,0.857142448425293
+1546,4,司机,driver,V59.0,0.9074617028236389
+1546,4,公共汽车或重型运输车,bus or heavy transport vehicle,V54,0.9872738718986511
+1546,4,固定或静止的物体,fixed or stationary object,V57,0.9663001894950867
+1546,4,火车或铁路车辆,railway train or vehicle,V55,0.9762368202209473
+1546,4,交通性,traffic,V59.6,0.9418150782585144
+1546,5,乘客,passenger,V59.5,0.9652137756347656
+1546,4,司机,driver,V59.4,0.9670034050941467
+1546,4,脚踏车,pedal cycle,V51,0.9660518169403076
+1547,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V52,0.9662407636642456
+1547,4,小汽车、轻型货车或篷车,"car, pick-up truck or van",V53,0.9761108160018921
+1547,4,行人,pedestrian,V50,0.9199510216712952
+1547,4,畜挽车,animal-drawn vehicle,V56,0.9584107398986816
+1547,4,特指的 NEC,specified NEC,V59.8,0.968666136264801
+1547,4,无碰撞,noncollision,V58,0.9446063041687012
+1547,2,全地带或越野车辆(非交通性),all-terrain or off-road vehicle (nontraffic),V86.9,0.9838513135910034
+1547,3,乘客,passenger,V86.6,0.9386292099952698
+1547,3,交通性,traffic,V86.3,0.9026862978935242
+1547,4,乘客,passenger,V86.1,0.9134436845779419
 1547,3,司机,driver,V86.0,0.9197922945022583
-1547,2,在(车)外面的人员,person on outside,V86.2,0.922373354434967
-1547,0,司机,driver,V86.5,0.9359566569328308
-1547,1,在(车)外面的人员,person on outside,V86.7,0.9434580206871033
-1547,1,在上或下(车)时,while boarding or alighting,V86.4,0.9492815732955933
-1547,0,人员NEC(未知的运输手段)(在...中),person NEC (unknown means of transportation) (in),V99,0.9765622615814209
-1547,1,非机动车(碰撞)(无碰撞)(交通性),nonmotor vehicle (collision) (noncollision) (traffic),V87.9,0.9741058349609375
-1547,2,非交通性,nontraffic,V88.9,0.9041838645935059
-1547,3,碰撞(在...之间),collision (between),,0.9516889452934265
-1547,2,公共汽车和重型运输车(交通性),bus and heavy transport vehicle (traffic),V87.5,0.9887885451316833
-1547,3,非交通性,nontraffic,V88.5,0.9559307098388672
-1547,4,机动车(交通性) NEC,motor vehicle (traffic) NEC,V87.7,0.9645077586174011
-1547,4,非交通性,nontraffic,V88.7,0.9800439476966858
-1547,4,两轮或三轮机动车(交通性)(与),two- or three-wheeled motor vehicle (traffic)(with),,0.9675459265708923
-1547,4,机动车 NEC,motor vehicle NEC,V87.1,0.96035236120224
-1547,4,非交通性,nontraffic,V88.1,0.9709139466285706
-1547,4,小汽车(与),car (with),,0.983336865901947
-1547,4,公共汽车(交通性),bus (traffic),V87.3,0.954399585723877
-1547,4,非交通性,nontraffic,V88.3,0.9220523238182068
-1547,4,火车或铁路车辆(交通性),railway train or vehicle (traffic),V87.6,0.9767463803291321
-1547,4,非交通性,nontraffic,V88.6,0.9354538321495056
-1547,4,两轮或三轮机动车(交通性),two- or three-wheeled motor vehicle (traffic),V87.0,0.9917707443237305
-1547,4,非交通性,nontraffic,V88.0,0.9685441851615906
-1547,4,轻型货车或篷车(交通性),pick-up truck or van (traffic),V87.2,0.984172523021698
-1547,4,非交通性,nontraffic,V88.2,0.9569636583328247
-1547,4,重型运输车(交通性),heavy transport vehicle (traffic),V87.4,0.9913899302482605
-1547,4,非交通性,nontraffic,V88.4,0.9564465880393982
-1548,0,牲畜骑手或畜挽车(中)的乘员,animal-rider or animal-drawn vehicle occupant (in),V80.9,0.9637104272842407
-1548,1,碰撞(与),collision (with),,0.8813875913619995
-1548,2,电车(市内有轨),streetcar,V80.7,0.9351509213447571
-1548,2,动物,animal,V80.1,0.9145128130912781
-1548,2,被驱赶,being ridden,V80.7,0.9687193036079407
-1548,2,非机动车,nonmotor vehicle,V80.7,0.9960969090461731
-1548,2,公共汽车或重型运输车,bus or heavy transport vehicle,V80.4,0.9703847765922546
-1548,2,固定或静止的物体,fixed or stationary object,V80.8,0.9832637310028076
-1548,2,火车或铁路车辆,railway train or vehicle,V80.6,0.9884499907493591
-1548,2,脚踏车,pedal cycle,V80.2,0.947917103767395
-1548,2,两轮或三轮机动车,two-or three-wheeled motor vehicle,V80.3,0.9820911884307861
-1548,2,特指的 NEC,specified NEC,V80.5,0.9842517971992493
-1548,2,小汽车、轻型货车或篷车,"car, pick-up truck or van",V80.4,0.9528259634971619
-1548,2,行人,pedestrian,V80.1,0.9293100237846375
-1548,3,畜挽车,animal-drawn vehicle,V80.7,0.9659978747367859
-1548,1,无碰撞,noncollision,V80.0,0.9189174771308899
-1548,1,特指的NEC,specified NEC,V98,0.967369794845581
-1548,1,跳伞者,parachutist,V97.2,0.9259902834892273
-1548,1,飞行器意外事故之后,after accident to aircraft,V95.9,0.991456925868988
-1548,1,小汽车(中)乘员,car occupant (in),V49.9,0.964543879032135
-1548,2,翻车,overturning,V48,0.9525701403617859
-1548,2,非交通性,nontraffic,V49.3,0.9465739130973816
+1547,3,在(车)外面的人员,person on outside,V86.2,0.922373354434967
+1547,3,司机,driver,V86.5,0.9359566569328308
+1547,3,在(车)外面的人员,person on outside,V86.7,0.9434580206871033
+1547,3,在上或下(车)时,while boarding or alighting,V86.4,0.9492815732955933
+1547,2,人员NEC(未知的运输手段)(在...中),person NEC (unknown means of transportation) (in),V99,0.9765622615814209
+1547,3,非机动车(碰撞)(无碰撞)(交通性),nonmotor vehicle (collision) (noncollision) (traffic),V87.9,0.9741058349609375
+1547,3,非交通性,nontraffic,V88.9,0.9041838645935059
+1547,4,碰撞(在...之间),collision (between),,0.9516889452934265
+1547,3,公共汽车和重型运输车(交通性),bus and heavy transport vehicle (traffic),V87.5,0.9887885451316833
+1547,4,非交通性,nontraffic,V88.5,0.9559307098388672
+1547,5,机动车(交通性) NEC,motor vehicle (traffic) NEC,V87.7,0.9645077586174011
+1547,5,非交通性,nontraffic,V88.7,0.9800439476966858
+1547,5,两轮或三轮机动车(交通性)(与),two- or three-wheeled motor vehicle (traffic)(with),,0.9675459265708923
+1547,5,机动车 NEC,motor vehicle NEC,V87.1,0.96035236120224
+1547,5,非交通性,nontraffic,V88.1,0.9709139466285706
+1547,5,小汽车(与),car (with),,0.983336865901947
+1547,5,公共汽车(交通性),bus (traffic),V87.3,0.954399585723877
+1547,5,非交通性,nontraffic,V88.3,0.9220523238182068
+1547,5,火车或铁路车辆(交通性),railway train or vehicle (traffic),V87.6,0.9767463803291321
+1547,5,非交通性,nontraffic,V88.6,0.9354538321495056
+1547,5,两轮或三轮机动车(交通性),two- or three-wheeled motor vehicle (traffic),V87.0,0.9917707443237305
+1547,5,非交通性,nontraffic,V88.0,0.9685441851615906
+1547,5,轻型货车或篷车(交通性),pick-up truck or van (traffic),V87.2,0.984172523021698
+1547,5,非交通性,nontraffic,V88.2,0.9569636583328247
+1547,5,重型运输车(交通性),heavy transport vehicle (traffic),V87.4,0.9913899302482605
+1547,5,非交通性,nontraffic,V88.4,0.9564465880393982
+1548,2,牲畜骑手或畜挽车(中)的乘员,animal-rider or animal-drawn vehicle occupant (in),V80.9,0.9637104272842407
+1548,3,碰撞(与),collision (with),,0.8813875913619995
+1548,4,电车(市内有轨),streetcar,V80.7,0.9351509213447571
+1548,4,动物,animal,V80.1,0.9145128130912781
+1548,4,被驱赶,being ridden,V80.7,0.9687193036079407
+1548,4,非机动车,nonmotor vehicle,V80.7,0.9960969090461731
+1548,4,公共汽车或重型运输车,bus or heavy transport vehicle,V80.4,0.9703847765922546
+1548,4,固定或静止的物体,fixed or stationary object,V80.8,0.9832637310028076
+1548,4,火车或铁路车辆,railway train or vehicle,V80.6,0.9884499907493591
+1548,4,脚踏车,pedal cycle,V80.2,0.947917103767395
+1548,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V80.3,0.9820911884307861
+1548,4,特指的 NEC,specified NEC,V80.5,0.9842517971992493
+1548,4,小汽车、轻型货车或篷车,"car, pick-up truck or van",V80.4,0.9528259634971619
+1548,4,行人,pedestrian,V80.1,0.9293100237846375
+1548,4,畜挽车,animal-drawn vehicle,V80.7,0.9659978747367859
+1548,3,无碰撞,noncollision,V80.0,0.9189174771308899
+1548,2,特指的NEC,specified NEC,V98,0.967369794845581
+1548,2,跳伞者,parachutist,V97.2,0.9259902834892273
+1548,2,飞行器意外事故之后,after accident to aircraft,V95.9,0.991456925868988
+1548,2,小汽车(中)乘员,car occupant (in),V49.9,0.964543879032135
+1548,3,翻车,overturning,V48,0.9525701403617859
+1548,3,非交通性,nontraffic,V49.3,0.9465739130973816
 1548,3,碰撞(机动车)(与),collision (motor vehicle) (with),V49.6,0.9868829250335693
-1548,3,电车(市内有轨),streetcar,V46,0.9555168151855469
-1548,3,动物,animal,V40,0.9267154932022095
-1548,3,被驱赶,being ridden,V46,0.9253058433532715
-1548,3,非机动车,nonmotor vehicle,V46,0.9642305970191956
-1548,3,非交通性,nontraffic,V49.2,0.9370315670967102
-1548,3,乘客,passenger,V49.1,0.9706904292106628
-1548,3,司机,driver,V49.0,0.9540838599205017
-1548,3,公共汽车或重型运输车,bus or heavy transport vehicle,V44,0.9951414465904236
-1548,3,固定或静止的物体,fixed or stationary object,V47,0.9714284539222717
-1548,3,火车或铁路车辆,railway train or vehicle,V45,0.992972731590271
-1548,3,交通性,traffic,V49.6,0.9593387842178345
-1548,3,乘客,passenger,V49.5,0.9164804220199585
-1548,3,司机,driver,V49.4,0.9256319999694824
-1548,3,脚踏车,pedal cycle,V41,0.9947324395179749
-1548,3,两轮或三轮机动车,two- or three-wheeled motor vehicle,V42,0.9491061568260193
-1548,3,小汽车、轻型货车或篷车.,"car, pick-up truck or van",V43,0.9590891599655151
-1548,3,行人,pedestrian,V40,0.9121668934822083
-1548,3,畜挽车,animal-drawn vehicle,V46,0.9922378659248352
-1549,1,特指的 NEC,specified NEC,V49.8,0.9456505179405212
-1549,1,无碰撞,noncollision,V48,0.9700557589530945
-1549,0,行人(在...中),pedestrian (in),V09.9,0.9437038898468018
-1549,1,非交通性,nontraffic,V09.1,0.9782905578613281
-1549,2,涉及机动车NEC,involving motor vehicle NEC,V09.0,0.9596395492553711
-1549,1,交通性,traffic,V09.3,0.9169454574584961
-1549,2,涉及机动车 NECV09.2,involving motor vehicle NEC,V09.2,0.9650103449821472
+1548,4,电车(市内有轨),streetcar,V46,0.9555168151855469
+1548,4,动物,animal,V40,0.9267154932022095
+1548,4,被驱赶,being ridden,V46,0.9253058433532715
+1548,4,非机动车,nonmotor vehicle,V46,0.9642305970191956
+1548,4,非交通性,nontraffic,V49.2,0.9370315670967102
+1548,5,乘客,passenger,V49.1,0.9706904292106628
+1548,4,司机,driver,V49.0,0.9540838599205017
+1548,4,公共汽车或重型运输车,bus or heavy transport vehicle,V44,0.9951414465904236
+1548,4,固定或静止的物体,fixed or stationary object,V47,0.9714284539222717
+1548,4,火车或铁路车辆,railway train or vehicle,V45,0.992972731590271
+1548,4,交通性,traffic,V49.6,0.9593387842178345
+1548,5,乘客,passenger,V49.5,0.9164804220199585
+1548,4,司机,driver,V49.4,0.9256319999694824
+1548,4,脚踏车,pedal cycle,V41,0.9947324395179749
+1548,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V42,0.9491061568260193
+1548,4,小汽车、轻型货车或篷车.,"car, pick-up truck or van",V43,0.9590891599655151
+1548,4,行人,pedestrian,V40,0.9121668934822083
+1548,4,畜挽车,animal-drawn vehicle,V46,0.9922378659248352
+1549,4,特指的 NEC,specified NEC,V49.8,0.9456505179405212
+1549,4,无碰撞,noncollision,V48,0.9700557589530945
+1549,2,行人(在...中),pedestrian (in),V09.9,0.9437038898468018
+1549,3,非交通性,nontraffic,V09.1,0.9782905578613281
+1549,4,涉及机动车NEC,involving motor vehicle NEC,V09.0,0.9596395492553711
+1549,3,交通性,traffic,V09.3,0.9169454574584961
+1549,4,涉及机动车 NEC,involving motor vehicle NEC,V09.2,0.9650103449821472
 1549,3,碰撞(与),collision (with),,0.8682560920715332
-1549,2,被驱赶的动物或畜挽车,animal being ridden or animal-drawn vehicle,V06,0.9713670015335083
-1549,3,车辆,vehicle,V09.9,0.9335801601409912
-1549,3,非机动,nonmotor,V06,0.9742880463600159
-1549,3,非交通性,nontraffic,V09.0,0.9431293606758118
-1549,3,交通性,traffic,V09.2,0.9567705392837524
-1549,3,畜挽,animal-drawn,V06,0.9223353266716003
-1549,3,电车(市内有轨),streetcar,V06,0.9575950503349304
-1549,3,公共汽车或重型运输车,bus or heavytransport vehicle,V04,0.9540728330612183
-1549,3,火车或铁路车辆,railway train or vehicle,V05,0.9418410062789917
+1549,4,被驱赶的动物或畜挽车,animal being ridden or animal-drawn vehicle,V06,0.9713670015335083
+1549,4,车辆,vehicle,V09.9,0.9335801601409912
+1549,5,非机动,nonmotor,V06,0.9742880463600159
+1549,5,非交通性,nontraffic,V09.0,0.9431293606758118
+1549,5,交通性,traffic,V09.2,0.9567705392837524
+1549,5,畜挽,animal-drawn,V06,0.9223353266716003
+1549,4,电车(市内有轨),streetcar,V06,0.9575950503349304
+1549,4,公共汽车或重型运输车,bus or heavy transport vehicle,V04,0.9540728330612183
+1549,4,火车或铁路车辆,railway train or vehicle,V05,0.9418410062789917
 1549,4,脚踏车,pedal cycle,V01,0.9571985602378845
 1549,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V02,0.9867270588874817
-1549,2,轻型货车或篷车,pick-up truck or van,V03,0.9780939817428589
-1549,2,小汽车,car,V03,0.9548807144165039
-1549,2,由于自然灾害-见自然灾害，按类型,"due to cataclysm – see Cataclysm, by type",,0.9516304731369019
-1549,1,重型运输车(中)乘员,heavy transport vehicle occupant (in),V69.9,0.9720906615257263
-1549,1,翻车,overturning,V68,0.9509614109992981
-1549,2,非交通性,nontraffic,V69.3,0.9712433815002441
-1549,1,碰撞(机动车)(与),collision (motor vehicle) (with),V69.6,0.9580004811286926
-1549,2,电车(市内有轨),streetcar,V66,0.9718819260597229
-1549,3,动物,animal,V60,0.9828203916549683
-1549,3,被驱赶,being ridden,V66,0.9780918955802917
-1549,3,非机动车,nonmotor vehicle,V66,0.9775209426879883
-1549,3,非交通性,nontraffic,V69.2,0.9837191700935364
-1549,3,乘客,passenger,V69.1,0.9464802742004395
-1549,3,司机,driver,V69.0,0.9621747732162476
-1549,3,公共汽车或重型运输车V6,bus or heavy transport vehicle,V64,0.9487539529800415
-1549,3,固定或静止的物体,fixed or stationary object,V67,0.9607051610946655
-1549,3,火车或铁路车辆,railway train or vehicle,V65,0.9960094094276428
-1549,3,交通性,traffic,V69.6,0.9473766684532166
-1549,3,乘客,passenger,V69.5,0.9837996363639832
-1549,2,司机,driver,V69.4,0.9052764177322388
-1550,3,脚踏车,pedal cycle,V61,0.9669183492660522
+1549,4,轻型货车或篷车,pick-up truck or van,V03,0.9780939817428589
+1549,4,小汽车,car,V03,0.9548807144165039
+1549,3,由于自然灾害-见自然灾害，按类型,"due to cataclysm – see Cataclysm, by type",,0.9516304731369019
+1549,2,重型运输车(中)乘员,heavy transport vehicle occupant (in),V69.9,0.9720906615257263
+1549,3,翻车,overturning,V68,0.9509614109992981
+1549,3,非交通性,nontraffic,V69.3,0.9712433815002441
+1549,3,碰撞(机动车)(与),collision (motor vehicle) (with),V69.6,0.9580004811286926
+1549,4,电车(市内有轨),streetcar,V66,0.9718819260597229
+1549,4,动物,animal,V60,0.9828203916549683
+1549,4,被驱赶,being ridden,V66,0.9780918955802917
+1549,4,非机动车,nonmotor vehicle,V66,0.9775209426879883
+1549,4,非交通性,nontraffic,V69.2,0.9837191700935364
+1549,5,乘客,passenger,V69.1,0.9464802742004395
+1549,4,司机,driver,V69.0,0.9621747732162476
+1549,4,公共汽车或重型运输车V6,bus or heavy transport vehicle,V64,0.9487539529800415
+1549,4,固定或静止的物体,fixed or stationary object,V67,0.9607051610946655
+1549,4,火车或铁路车辆,railway train or vehicle,V65,0.9960094094276428
+1549,4,交通性,traffic,V69.6,0.9473766684532166
+1549,5,乘客,passenger,V69.5,0.9837996363639832
+1549,4,司机,driver,V69.4,0.9052764177322388
+1550,4,脚踏车,pedal cycle,V61,0.9669183492660522
 1550,4,两轮或三轮机动车,two- or three-wheeled motor vehicle,V62,0.9822062849998474
 1550,4,小汽车、轻型货车或篷车:,"car, pick-up truck or van",V63,0.9617176055908203
 1550,4,行人,pedestrian,V60,0.9710696935653687
-1550,3,畜挽车,animal-drawn vehicle,V66,0.9730398058891296
-1550,2,特指的 NEC,specified NEC,V69.8,0.9765424132347107
-1550,2,无碰撞,noncollision,V68,0.9716148376464844
-1550,1,重型运输车NEC(另见意外事故，运输),"heavy transport vehicle NEC (see also Accident, transport)",V69.9,0.9873073697090149
+1550,4,畜挽车,animal-drawn vehicle,V66,0.9730398058891296
+1550,4,特指的 NEC,specified NEC,V69.8,0.9765424132347107
+1550,4,无碰撞,noncollision,V68,0.9716148376464844
+1550,2,重型运输车NEC(另见意外事故，运输),"heavy transport vehicle NEC (see also Accident, transport)",V69.9,0.9873073697090149
 1550,0,因素，补充的,"Factors, supplemental",,0.9999762177467346
 1550,1,酒精,alcohol,,0.9616901278495789
 1550,2,血中存在，但水平未特指,"presence in blood, but level not specified",Y90.9,0.987608790397644
 1550,2,血中水平,blood level,,0.8295602202415466
 1550,3,低于20mg/100ml,20mg/100ml,Y90.0,0.966746985912323
-1550,3,39mg/100mlY90.1,mg/100ml,Y90.1,0.94939786195755
-1550,3,59mg/100ml,mg/100ml,Y90.2,0.9409786462783813
-1550,3,mg/100ml,mg/100ml,Y90.3,0.9567546844482422
-1550,3,mg/100ml,mg/100ml,Y90.4,0.9508908987045288
+1550,3,20–39 mg/100 ml,20–39 mg/100 ml,Y90.1,0.94939786195755
+1550,3,40-59mg/100ml,40-59mg/100ml,Y90.2,0.9409786462783813
+1550,3,60-79mg/100ml,60-79mg/100ml,Y90.3,0.9567546844482422
+1550,3,80-99mg/100ml,80-99mg/100ml,Y90.4,0.9508908987045288
 1550,3,100-119mg/100ml,100-119mg/100ml,Y90.5,0.973555862903595
 1550,3,120-199mg/100ml,120-199 mg/100ml,Y90.6,0.9471198916435242
 1550,3,200-239mg/100ml,200-239 mg/100ml,Y90.7,0.9703112840652466
@@ -2509,14 +2504,13 @@
 1550,0,营养不足(由于)(饥饿)(另见缺乏，食物),"Inanition (from), Insufficient nourishment (hunger) (see also Lack of, food)",X53,0.9919115900993347
 1550,1,口渴(另见缺乏，水),"thirst (see also Lack of, water)",X54,0.9833720326423645
 1550,1,他杀企图(导致的)(另见遗弃),homicidal intent (resulting from)(see also Abandonment),Y06.9,0.9895086288452148
-1551,0,第二部分 损伤的外部原因索引,yǐng-yūn 影用运晕 1543,,0.9508103132247925
 1551,0,影响呼吸,Threat to breathing,W84,0.979465126991272
 1551,1,特指的NEC,specified NEC,W83,0.979917049407959
 1551,1,由于塌方，坠落泥土或其他物质 NEC,"due to cave-in, falling earth or other substance NEC",W77,0.9874758124351501
 1551,0,用力过度(抬举)(拉)(推),Overexertion (lifting) (pulling) (pushing),X50,0.9724397659301758
 1551,0,用药过量(药物)-见药物和化学制剂表,Overdose (drug) – see Table of drugs and chemicals,,0.9966009855270386
 1551,1,辐射,radiation,Y63.2,0.9656192660331726
-1551,0,运动(效应)(病).-),Motion (effects) (sickness),X51,0.9704612493515015
+1551,0,运动（效应）（病）,Motion (effects) (sickness),X51,0.9704612493515015
 1551,0,晕车病,Car sickness,X51,0.9749208092689514
 1551,0,晕船 .,Seasickness,X51,0.942564845085144
 1552,0,噪音(引起损伤)(污染),Noise (causing injury) (pollution) .,W42,0.9980908036231995
@@ -2551,44 +2545,44 @@
 1552,1,描述为不能确定是意外还是故意造成的,stated as undetermined whether accidentally or,Y20,0.9913855791091919
 1552,1,他杀(企图),homicide (attempt),X91,0.953922688961029
 1552,1,婴儿睡眠时,infant while asleep,W75,0.978987991809845
-1553,0,由于，被，被其他人员,"due to, by, from, caused by other person",,0.9882784485816956
-1553,1,爆炸(另见爆炸),explosion (see also Explosion),W40,0.9881717562675476
-1553,1,被褥、床单,"bed, bed linen",W75,0.9778977036476135
-1553,1,床上的另一个人,another person in bed,W75,0.9667149186134338
-1553,1,化学战中,chemical in war operations,Y36.7,0.9626469016075134
-1553,1,火(另见暴露，火),"fire (see also Exposure, fire)",X09,0.9538710117340088
-1553,2,作战行动中的,in war operations,Y36.3,0.9917532801628113
-1553,1,机器(另见接触，与，按机器类型),"machine(ry) (see also Contact, with, by type of machine)",W31,0.986671507358551
-1553,1,机械性手段(另见窒息),mechanical means (see also Suffocation),W84,0.9825612902641296
-1553,1,描述为,— stated as,,0.9096096158027649
-1553,2,不能确定是意外还是故意造成的,undetermined whether accidentally or purposely inflicted,Y20,0.9832556247711182
-1553,2,故意的，他杀(企图),"intentional, homicide (attempt)",X91,0.9893292188644409
-1553,1,粘痰(吸入)，非新生儿,"phlegm (aspiration) (inhalation), not of newborn",W80,0.9568156003952026
-1553,1,粘液(吸入)，非新生儿.,"mucus (aspiration) (inhalation), not of newborn",W80,0.9577285647392273
-1553,1,呕吐物(吸入),vomitus (aspiration) (inhalation),W78,0.9856634140014648
-1553,1,气体(另见药物和化学制剂表),gas (see also Table of drugs and chemicals),X47,0.9710854291915894
-1553,2,依法,legal,,0.9375976324081421
-1553,3,处决,execution,Y35.5,0.8884453177452087
-1553,3,处置,intervention,Y35.2,0.947221040725708
-1553,2,作战行动(化学武器),in war operations (chemical weapons),Y36.7,0.9874432682991028
-1553,1,任何物体，除外食物或呕吐物,"any object, except food or vomitus",W80,0.9836294054985046
-1553,1,山崩,landslide,X36,0.9807141423225403
-1553,1,食物(骨头)(种子),food (bone) (seed),W79,0.9473877549171448
-1553,1,食物，任何类型(吸入)(食入),"food, any type (aspiration) (ingestion) (inhalation)",W79,0.9688402414321899
-1553,1,塑料袋(另见窒息，在...中，塑料袋),"plastic bag (see also Suffocation, in, plastic bag)",W83,0.9731674194335938
-1553,1,塌方,cave-in,W77,0.9792660474777222
-1553,1,毯子,blanket,W75,0.9931508302688599
-1553,1,特指的方式 NEC,specified means NEC,W83,0.9726370573043823
-1553,1,围兜,bib,W76,0.9483475089073181
-1553,1,物质或物体，除外食物或呕吐物.,material or object except food or vomitus,W80,0.9866610765457153
-1553,1,雪崩,avalanche,X36,0.9305703639984131
-1553,1,异物，除外食物或呕吐物,"foreign body, except food or vomitus",W80,0.9749584197998047
-1553,1,在意外事件中,in accidental circumstances,W84,0.9818484783172607
-1553,1,罩单(塑料的),sheet (plastic),W75,0.9579808712005615
-1553,1,枕头,pillow,W75,0.9811652302742004
-1553,1,坠落泥土或其他物质,falling earth or other substance,W77,0.9576437473297119
-1553,1,着火(另见着火),ignition (see also Ignition),X09,0.9808295369148254
-1553,1,作战行动中的烟雾(化学武器),fumes in war operations (chemical weapons),Y36.7,0.9892922043800354
+1553,1,由于，被，被其他人员,"due to, by, from, caused by other person",,0.9882784485816956
+1553,2,爆炸(另见爆炸),explosion (see also Explosion),W40,0.9881717562675476
+1553,2,被褥、床单,"bed, bed linen",W75,0.9778977036476135
+1553,2,床上的另一个人,another person in bed,W75,0.9667149186134338
+1553,2,化学战中,chemical in war operations,Y36.7,0.9626469016075134
+1553,2,火(另见暴露，火),"fire (see also Exposure, fire)",X09,0.9538710117340088
+1553,3,作战行动中的,in war operations,Y36.3,0.9917532801628113
+1553,2,机器(另见接触，与，按机器类型),"machine(ry) (see also Contact, with, by type of machine)",W31,0.986671507358551
+1553,2,机械性手段(另见窒息),mechanical means (see also Suffocation),W84,0.9825612902641296
+1553,2,描述为,— stated as,,0.9096096158027649
+1553,3,不能确定是意外还是故意造成的,undetermined whether accidentally or purposely inflicted,Y20,0.9832556247711182
+1553,3,故意的，他杀(企图),"intentional, homicide (attempt)",X91,0.9893292188644409
+1553,2,粘痰(吸入)，非新生儿,"phlegm (aspiration) (inhalation), not of newborn",W80,0.9568156003952026
+1553,2,粘液(吸入)，非新生儿.,"mucus (aspiration) (inhalation), not of newborn",W80,0.9577285647392273
+1553,2,呕吐物(吸入),vomitus (aspiration) (inhalation),W78,0.9856634140014648
+1553,2,气体(另见药物和化学制剂表),gas (see also Table of drugs and chemicals),X47,0.9710854291915894
+1553,3,依法,legal,,0.9375976324081421
+1553,4,处决,execution,Y35.5,0.8884453177452087
+1553,4,处置,intervention,Y35.2,0.947221040725708
+1553,3,作战行动(化学武器),in war operations (chemical weapons),Y36.7,0.9874432682991028
+1553,2,任何物体，除外食物或呕吐物,"any object, except food or vomitus",W80,0.9836294054985046
+1553,2,山崩,landslide,X36,0.9807141423225403
+1553,2,食物(骨头)(种子),food (bone) (seed),W79,0.9473877549171448
+1553,2,食物，任何类型(吸入)(食入),"food, any type (aspiration) (ingestion) (inhalation)",W79,0.9688402414321899
+1553,2,塑料袋(另见窒息，在...中，塑料袋),"plastic bag (see also Suffocation, in, plastic bag)",W83,0.9731674194335938
+1553,2,塌方,cave-in,W77,0.9792660474777222
+1553,2,毯子,blanket,W75,0.9931508302688599
+1553,2,特指的方式 NEC,specified means NEC,W83,0.9726370573043823
+1553,2,围兜,bib,W76,0.9483475089073181
+1553,2,物质或物体，除外食物或呕吐物.,material or object except food or vomitus,W80,0.9866610765457153
+1553,2,雪崩,avalanche,X36,0.9305703639984131
+1553,2,异物，除外食物或呕吐物,"foreign body, except food or vomitus",W80,0.9749584197998047
+1553,2,在意外事件中,in accidental circumstances,W84,0.9818484783172607
+1553,2,罩单(塑料的),sheet (plastic),W75,0.9579808712005615
+1553,2,枕头,pillow,W75,0.9811652302742004
+1553,2,坠落泥土或其他物质,falling earth or other substance,W77,0.9576437473297119
+1553,2,着火(另见着火),ignition (see also Ignition),X09,0.9808295369148254
+1553,2,作战行动中的烟雾(化学武器),fumes in war operations (chemical weapons),Y36.7,0.9892922043800354
 1554,1,在...中,in,,0.9623138904571533
 1554,2,床,bed,W75,0.9048012495040894
 1554,2,吊床，摇篮,"cot, cradle",W75,0.9385385513305664
@@ -2615,7 +2609,7 @@
 1554,1,废气,exhaust gas,,0.9726523756980896
 1554,2,产生于,generated by,,0.7834658622741699
 1554,3,船舶(运输中)(非运输中),watercraft (in transit) (not in transit),V93,0.9765567779541016
-1554,3,机动车-见 第一卷.-前面的“运输事故的分类和编码规定”的注释6,"motor vehicle - seeNote 6, Volume 1, Classification and coding instructions for transport accidents before",V01,0.9598982334136963
+1554,3,机动车-见 第一卷.-前面的“运输事故的分类和编码规定”的注释6,"motor vehicle – see Note 6, Volume 1, Classification and coding instructions for transport accidents before V01",V01,0.9598982334136963
 1554,1,气体,gas,,0.936633825302124
 1554,2,依法处以死刑,legal execution,Y35.5,0.9512071013450623
 1554,2,依法处置中的,in legal intervention,Y35.2,0.972746729850769
@@ -2627,7 +2621,7 @@
 1555,2,氧化碳,carbon monoxide,,0.9126981496810913
 1555,2,产生于,generated by,,0.8530691266059875
 1555,3,船舶(运输中)(非运输中),watercraft (in transit) (not in transit),V93,0.9656373858451843
-1555,3,机动车-见第一卷.-前面的“运输事故的分类和编码规定”的注释6,"motor vehicle - see Note 6, Volume 1, Classification and coding instructions for transport accidents before",V01,0.9759774804115295
+1555,3,机动车-见第一卷.-前面的“运输事故的分类和编码规定”的注释6,"motor vehicle – see Note 6, Volume 1, Classification and coding instructions for transport accidents before V01",V01,0.9759774804115295
 1555,1,依法,legal,,0.9264623522758484
 1555,2,处死,execution,Y35.5,0.949908435344696
 1555,2,处置，被气体,intervention by gas,Y35.2,0.98779296875
@@ -2710,9 +2704,9 @@
 1557,1,地层表面运动 NEC .,earth surface movement NEC,X36,0.9643591642379761
 1557,1,地震,earthquake,X34,0.9633833765983582
 1557,1,洪水,flood,X38,0.9798856377601624
-1557,2,火山爆发,volcanic eruption,X35,0.9932457804679871
+1557,1,火山爆发,volcanic eruption,X35,0.9932457804679871
 1557,1,山崩,landslide,X36,0.9725850820541382
-1557,2,雪崩,avalanche,X36,0.9768779277801514
+1557,1,雪崩,avalanche,X36,0.9768779277801514
 1557,0,自杀(性)(企图)(用),"Suicide, suicidal (attempted) (by)",X84,0.9911937713623047
 1557,1,爆炸物(物质),explosive(s) (material),X75,0.9855514168739319
 1557,1,沉没,submersion,X71,0.9465158581733704
@@ -2726,19 +2720,19 @@
 1557,1,火，火焰,"fire, flames",X76,0.9633223414421082
 1557,1,火器(另见发射，按火器类型，自杀),"firearm (see also Discharge, by type of firearm, suicide)",X74,0.9979214072227478
 1557,1,苛性物质,caustic substance,X83,0.9694566130638123
-1557,1,吞咽-见药物和化学制剂表,swallowed - see Table of drugs and chemicals,,0.9509144425392151
-1557,1,中毒-见药物和化学制剂表,poisoning - see Table of drugs and chemicals,,0.9719516038894653
+1557,2,吞咽-见药物和化学制剂表,swallowed - see Table of drugs and chemicals,,0.9509144425392151
+1557,2,中毒-见药物和化学制剂表,poisoning - see Table of drugs and chemicals,,0.9719516038894653
 1557,1,勒杀,strangulation,X70,0.956030547618866
 1557,1,碰撞，坠毁,"collision (of), crashing of",,0.9789242744445801
-1557,1,电车(市内有轨)，火车或有轨电车,"streetcar, train or tram",X82,0.976763904094696
-1557,1,飞行器,aircraft,X83,0.9738544225692749
-1557,1,机动车,motor vehicle,X82,0.9619752764701843
-1557,1,运输车辆 NEC,transport vehicle NEC,X82,0.9800262451171875
+1557,2,电车(市内有轨)，火车或有轨电车,"streetcar, train or tram",X82,0.976763904094696
+1557,2,飞行器,aircraft,X83,0.9738544225692749
+1557,2,机动车,motor vehicle,X82,0.9619752764701843
+1557,2,运输车辆 NEC,transport vehicle NEC,X82,0.9800262451171875
 1557,1,切割(身体任何部位),cut (any part of body),X78,0.9732732176780701
 1557,1,切割或穿刺器械,cutting or piercing instrument,X78,0.9833126068115234
 1557,1,燃烧,"burning, burns",X76,0.9155796766281128
-1557,2,热的物体或蒸气,"hot object, šteam or vapor",X77,0.9666001200675964
-1558,1,热的物体,hot object,X77,0.9761351346969604
+1557,2,热的物体或蒸气,"hot object, steam or vapor",X77,0.9666001200675964
+1558,2,热的物体,hot object,X77,0.9761351346969604
 1558,1,射击(另见发射，按火器类型，自杀),"shooting (see also Discharge, by type of firearm, suicide)",X74,0.993578314781189
 1558,1,躺在运动物体、火车、车辆之前.,"lying before moving object, train, vehicle",X81,0.9746161699295044
 1558,2,烫伤,scald,X77,0.9439178109169006
@@ -2772,11 +2766,11 @@
 1558,2,核(武器),nuclear (weapon),Y36.5,0.9727997183799744
 1558,2,军火(意外的)(用于战争)(仓库)(工厂),munitions (accidental) (being used in war) (dump) (factory),Y36.2,0.9592547416687012
 1558,2,深水炸弹,depth-charge,Y36.0,0.9666771292686462
-1558,2,手榴弹,grenade,Y36.0,0.9628642797470093
-1558,2,水下,underwater,Y36.2,0.9096864461898804
+1558,2,手榴弹,grenade,Y36.2,0.9628642797470093
+1558,2,水下,underwater,Y36.0,0.9096864461898804
 1558,2,水中武器,marine weapon,Y36.0,0.9720172882080078
 1558,2,损伤，被碎片，由于,injury by fragments due to,Y36.0,0.9720015525817871
-1559,1,停止敌对行动后的，战争中设置的炸弹、地雷,"after cessation of hostilities of bomb, mine placed in war",Y36.8,0.9650482535362244
+1559,2,停止敌对行动后的，战争中设置的炸弹、地雷,"after cessation of hostilities of bomb, mine placed in war",Y36.8,0.9650482535362244
 1559,1,鱼雷,torpedo,Y36.0,0.9060244560241699
 1559,1,炸弹(杀伤性炸弹)(迫击炮),bomb (antipersonnel) (mortar),Y36.2,0.9544616937637329
 1559,2,核(原子)(氢),nuclear (atom) (hydrogen),Y36.5,0.9434905052185059
@@ -2791,7 +2785,7 @@
 1559,1,潜载的,marine,Y36.0,0.9283496141433716
 1559,0,地雷(爆炸)(碎片),land-mine (explosion) (fragments),Y36.2,0.9721725583076477
 1559,1,停止敌对行动以后,after cessation of hostilities,Y36.8,0.969661295413971
-1559,0,非常规战争NECY36.7,unconventional warfare NEC,Y36.7,0.9660358428955078
+1559,0,非常规战争 NEC,unconventional warfare NEC,Y36.7,0.9660358428955078
 1559,1,核武器,nuclear weapon,Y36.5,0.969900906085968
 1559,1,激光,laser(s),Y36.7,0.92426997423172
 1559,1,气体、烟雾、化学,"gas, fumes, chemicals",Y36.7,0.9619204998016357
@@ -2819,7 +2813,7 @@
 1560,0,榴弹,shrapnel,Y36.2,0.9652802348136902
 1560,0,路易士毒气,lewisite,Y36.7,0.9728072285652161
 1560,0,糜烂性毒剂[起疱剂](化学)(烟雾)(气体),vesicant (chemical) (fumes)(gas),Y36.7,0.9740469455718994
-1560,0,炮弹(飞行器)(火炮)(加农炮)(陆军基地)(爆炸)(碎片),shell (aircraft)(artillery)(cannon)(land-based) (explosion) (fragments),Y36.2,0.9686029553413391
+1560,0,炮弹(飞行器)(火炮)(加农炮)(陆军基地)(爆炸)(碎片),shell (aircraft) (artillery) (cannon) (land-based) (explosion) (fragments),Y36.2,0.9686029553413391
 1560,1,海军基地,sea-based,Y36.0,0.9695190787315369
 1560,0,迫击炮炸弹(爆炸)(碎片),mortar bomb (explosion) (fragments),Y36.2,0.9868881702423096
 1560,0,气体或烟雾,gas or fumes,Y36.7,0.9752227663993835
@@ -2852,7 +2846,6 @@
 1560,0,炸弹(杀伤性炸弹)(迫击炮)(爆炸)(碎片),bomb (antipersonnel)(mortar)(explosion) (fragments),Y36.2,0.9835777282714844
 1560,1,停止敌对行动以后,after cessation of hostilities,Y36.8,0.9715577363967896
 1560,0,战斗创伤NEC,battle wound NEC,Y36.9,0.9718804359436035
-1561,0,第二部分 损伤的外部原因索引,zuò 作 1553,,0.9927424192428589
 1561,1,窒息，由于,asphyxia from,,0.9608872532844543
 1561,2,化学(武器),chemical(weapons),Y36.7,0.9469705820083618
 1561,2,火，大火灾(引起起火装置或常规武器),"fire, conflagration (caused by fire-producing device or conventional weapon)",Y36.3,0.9648817181587219
@@ -2860,7 +2853,7 @@
 1561,2,气体或烟雾,gas or fumes,Y36.7,0.937886655330658
 1561,1,中毒(化学)(烟雾)(气体),poisoning (chemical)(fumes)(gas),Y36.7,0.9878392815589905
 1561,1,坠落的飞行器,falling aircraft,Y36.1,0.98014235496521
-1561,2,子弹(自卡宾枪、机关枪、手枪、步枪、猎枪射出的),"bullet(s)(from carbine, machine gun, pistol, rifle, shotgun)",Y36.4,0.9510197639465332
+1561,1,子弹(自卡宾枪、机关枪、手枪、步枪、猎枪射出的),"bullet(s)(from carbine, machine gun, pistol, rifle, shotgun)",Y36.4,0.9510197639465332
 1561,0,作战行动中的(空中)爆炸,Blast (air) in war operations,Y36.2,0.9994561076164246
 1561,1,水下,underwater,Y36.0,0.9721183776855469
 1561,1,由于核爆炸,from nuclear explosion,Y36.5,0.9545649886131287
