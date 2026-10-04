@@ -80,8 +80,10 @@ const [csvText, template] = await Promise.all([fs.readFile(csvPath, "utf8"), fs.
 if (!template.includes(PLACEHOLDER)) throw new Error(`模板缺少 ${PLACEHOLDER}`);
 const data = hierarchy(normalize(parseCsv(csvText)));
 const output = template.replace(PLACEHOLDER, inline(data));
-if (!output.includes("/api/feedback") || !output.includes("referenceAliases") || !output.includes("data-feedback-position")) {
-  throw new Error("模板缺少反馈或交叉索引功能");
+const requiredTemplateMarkers = ["/api/feedback", "data-feedback-position", "locateReferenceTarget", "renderReferenceLinks"];
+const missingTemplateMarkers = requiredTemplateMarkers.filter(marker => !output.includes(marker));
+if (missingTemplateMarkers.length) {
+  throw new Error(`模板缺少反馈或交叉索引功能：${missingTemplateMarkers.join(", ")}`);
 }
 await fs.mkdir(outputDir, { recursive: true });
 await fs.writeFile(outputPath, output, "utf8");
